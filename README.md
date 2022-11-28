@@ -25,7 +25,7 @@ $ tar -xvf logs.tar.xz && tar -xvf eclat_logs.tar.xz && tar -xvf rules.tar.xz
 * **[Reproducing Experimental Results](#expr)**
 
 ## Requirements <a name="require"></a>
-The implementation is written as a set of Python scripts. Some packages are required. To install requirements:
+The implementation is written as a set of Python scripts. The python version used in the experiments is 3.8.5. Some packages are required. To install requirements:
 ```
 $ pip install requirements.txt
 ``` 
