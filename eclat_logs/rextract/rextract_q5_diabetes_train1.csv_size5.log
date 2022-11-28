@@ -1,0 +1,8 @@
+c0 # of samps: 614 (587 weighted)
+c0 # of feats: 8 (40 binary)
+c0 # of labls: 2
+c0 parse time: 0.3265
+
+c3 total time: 1.6714
+
+Rules are saved to ../eclat_rules/size/q5_diabetes_train1.csv_size5.json

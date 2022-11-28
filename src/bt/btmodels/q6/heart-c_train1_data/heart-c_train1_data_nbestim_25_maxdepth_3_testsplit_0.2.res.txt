@@ -1,0 +1,2 @@
+heart-c-train1-data.csv & 0.95 & 0.8 &25  &3 & 0.2 \\ 
+ \hline 

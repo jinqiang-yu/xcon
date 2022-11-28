@@ -1,0 +1,8 @@
+c0 # of samps: 546 (321 weighted)
+c0 # of feats: 9 (54 binary)
+c0 # of labls: 2
+c0 parse time: 0.2991
+
+c3 total time: 39794.2378
+
+Rules are saved to ../apriori_rules/all/q6_cancer_train1.csv.json

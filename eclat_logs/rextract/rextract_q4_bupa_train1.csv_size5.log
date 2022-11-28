@@ -1,0 +1,8 @@
+c0 # of samps: 276 (215 weighted)
+c0 # of feats: 6 (24 binary)
+c0 # of labls: 2
+c0 parse time: 0.2958
+
+c3 total time: 0.3082
+
+Rules are saved to ../eclat_rules/size/q4_bupa_train1.csv_size5.json

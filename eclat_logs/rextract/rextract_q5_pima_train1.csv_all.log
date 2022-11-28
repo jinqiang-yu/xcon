@@ -1,0 +1,8 @@
+c0 # of samps: 614 (585 weighted)
+c0 # of feats: 8 (40 binary)
+c0 # of labls: 2
+c0 parse time: 0.3107
+
+c3 total time: 2.2620
+
+Rules are saved to ../eclat_rules/all/q5_pima_train1.csv.json

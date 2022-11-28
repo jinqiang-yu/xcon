@@ -1,0 +1,8 @@
+c0 # of samps: 85 (81 weighted)
+c0 # of feats: 7 (42 binary)
+c0 # of labls: 2
+c0 parse time: 0.3151
+
+c3 total time: 0.3609
+
+Rules are saved to ../eclat_rules/size/q6_appendicitis_train2.csv_size5.json

@@ -1,0 +1,8 @@
+c0 # of samps: 242 (242 weighted)
+c0 # of feats: 13 (52 binary)
+c0 # of labls: 2
+c0 parse time: 0.3311
+
+c3 total time: 299.0434
+
+Rules are saved to ../eclat_rules/all/q6_cleve_train2.csv.json

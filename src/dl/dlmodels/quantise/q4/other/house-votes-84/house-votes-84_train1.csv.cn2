@@ -1,0 +1,34 @@
+c* cover: 'v4: 0', not 'v1: 0' => party: democrat 
+c* cover: 'v4: 0', not 'v2: 0' => party: democrat 
+c* cover: 'v4: 0', not 'v3: 0' => party: democrat 
+c* cover: 'v11: 0', not 'v1: 0' => party: republican 
+c* cover: 'v9: 0', 'v6: 0' => party: republican 
+c* cover: not 'v12: 0', 'v14: 0' => party: republican 
+c* cover: 'v4: 0', not 'v16: 1' => party: democrat 
+c* cover: not 'v10: 0', not 'v1: 0' => party: republican 
+c* cover: not 'v10: 0', 'v4: 0' => party: democrat 
+c* cover: not 'v10: 0', 'v2: 0' => party: republican 
+c* cover: 'v6: 0' => party: democrat 
+c* cover: 'v11: 0', not 'v10: 0' => party: republican 
+c* cover: 'v3: 0', not 'v10: 0' => party: republican 
+c* cover: not 'v10: 0' => party: democrat 
+c* cover: not 'v12: 0', 'v4: 0' => party: democrat 
+c* cover: not 'v12: 0', 'v5: 0' => party: republican 
+c* cover: 'v5: 0' => party: democrat 
+c* cover: 'v4: 0' => party: republican 
+c* cover: not 'v7: 0' => party: republican 
+c* cover: not 'v3: 0' => party: democrat 
+c* cover: not 'v9: 0' => party: democrat 
+c* cover: 'v14: 0' => party: republican 
+c* cover: 'v11: 0', not 'v16: 1' => party: republican 
+c* cover: 'v13: 0' => party: democrat 
+c* cover: not 'v16: 0' => party: republican 
+c* cover: not 'v1: 0', not 'v2: 1' => party: republican 
+c* cover: 'v2: 0' => party: democrat 
+c* cover: 'v1: 0' => party: republican 
+c* cover: 'v12: 0' => party: democrat 
+c* cover: 'v16: 0' => party: republican 
+c* cover: true => party: democrat 
+c* cover size: 31
+c* cover wght: 47
+c* accur: 100.00%

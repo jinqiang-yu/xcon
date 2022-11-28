@@ -1,0 +1,8 @@
+c0 # of samps: 276 (210 weighted)
+c0 # of feats: 6 (24 binary)
+c0 # of labls: 2
+c0 parse time: 0.4511
+
+c3 total time: 1.6078
+
+Rules are saved to ../apriori_rules/all/q4_liver-disorder_train1.csv.json

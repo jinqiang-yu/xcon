@@ -1,0 +1,8 @@
+c0 # of samps: 272 (267 weighted)
+c0 # of feats: 14 (64 binary)
+c0 # of labls: 2
+c0 parse time: 0.2852
+
+c3 total time: 2235.3087
+
+Rules are saved to ../apriori_rules/size/q5_schizo_train3.csv_size5.json

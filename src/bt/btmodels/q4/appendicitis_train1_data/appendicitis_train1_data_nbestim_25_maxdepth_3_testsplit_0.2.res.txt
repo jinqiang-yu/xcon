@@ -1,0 +1,2 @@
+appendicitis-train1-data.csv & 0.89 & 1.0 &25  &3 & 0.2 \\ 
+ \hline 

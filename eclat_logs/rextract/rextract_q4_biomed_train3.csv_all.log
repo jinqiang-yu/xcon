@@ -1,0 +1,8 @@
+c0 # of samps: 167 (159 weighted)
+c0 # of feats: 8 (32 binary)
+c0 # of labls: 2
+c0 parse time: 0.3337
+
+c3 total time: 0.6316
+
+Rules are saved to ../eclat_rules/all/q4_biomed_train3.csv.json

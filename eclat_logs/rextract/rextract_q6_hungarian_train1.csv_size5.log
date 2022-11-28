@@ -1,0 +1,8 @@
+c0 # of samps: 235 (232 weighted)
+c0 # of feats: 13 (54 binary)
+c0 # of labls: 2
+c0 parse time: 0.2857
+
+c3 total time: 14.0901
+
+Rules are saved to ../eclat_rules/size/q6_hungarian_train1.csv_size5.json

@@ -1,0 +1,8 @@
+c0 # of samps: 276 (205 weighted)
+c0 # of feats: 6 (24 binary)
+c0 # of labls: 2
+c0 parse time: 0.2836
+
+c3 total time: 0.9293
+
+Rules are saved to ../apriori_rules/size/q4_bupa_train3.csv_size5.json

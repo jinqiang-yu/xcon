@@ -1,0 +1,8 @@
+c0 # of samps: 8163 (4467 weighted)
+c0 # of feats: 9 (35 binary)
+c0 # of labls: 2
+c0 parse time: 0.3066
+
+c3 total time: 658.2869
+
+Rules are saved to ../apriori_rules/size/q6_lending_train2.csv_size5.json

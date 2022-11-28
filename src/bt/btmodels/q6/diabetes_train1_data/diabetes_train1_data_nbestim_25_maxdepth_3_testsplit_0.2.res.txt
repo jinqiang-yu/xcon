@@ -1,0 +1,2 @@
+diabetes-train1-data.csv & 0.81 & 0.71 &25  &3 & 0.2 \\ 
+ \hline 

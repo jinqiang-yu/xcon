@@ -1,0 +1,2 @@
+glass2-train1-data.csv & 0.94 & 0.76 &25  &3 & 0.2 \\ 
+ \hline 

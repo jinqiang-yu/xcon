@@ -1,0 +1,2 @@
+house-votes-84-train1-data.csv & 0.97 & 0.9 &25  &3 & 0.2 \\ 
+ \hline 

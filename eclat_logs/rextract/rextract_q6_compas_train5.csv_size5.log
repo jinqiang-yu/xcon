@@ -1,0 +1,8 @@
+c0 # of samps: 4938 (363 weighted)
+c0 # of feats: 11 (16 binary)
+c0 # of labls: 2
+c0 parse time: 0.2866
+
+c3 total time: 0.4598
+
+Rules are saved to ../eclat_rules/size/q6_compas_train5.csv_size5.json

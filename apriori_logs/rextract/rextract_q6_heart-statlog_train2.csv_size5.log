@@ -1,0 +1,8 @@
+c0 # of samps: 216 (213 weighted)
+c0 # of feats: 13 (50 binary)
+c0 # of labls: 2
+c0 parse time: 0.2832
+
+c3 total time: 367.1410
+
+Rules are saved to ../apriori_rules/size/q6_heart-statlog_train2.csv_size5.json

@@ -1,0 +1,8 @@
+c0 # of samps: 8163 (4446 weighted)
+c0 # of feats: 9 (35 binary)
+c0 # of labls: 2
+c0 parse time: 0.3602
+
+c3 total time: 9.5046
+
+Rules are saved to ../eclat_rules/all/q6_lending_train4.csv.json

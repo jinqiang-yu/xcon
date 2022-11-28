@@ -1,0 +1,8 @@
+c0 # of samps: 5072 (3461 weighted)
+c0 # of feats: 15 (29 binary)
+c0 # of labls: 2
+c0 parse time: 0.3171
+
+c3 total time: 8508.6225
+
+Rules are saved to ../apriori_rules/size/q6_recidivism_train5.csv_size5.json

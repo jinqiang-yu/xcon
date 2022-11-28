@@ -1,0 +1,41 @@
+c* cover: 'x1: (148.79..170.85]' => target: 1 
+c* cover: 'x2: (144.29..175.83]' => target: 1 
+c* cover: 'x9: (0.05..+inf)' => target: 1 
+c* cover: 'x9: (-inf..0.01]' => target: 0 
+c* cover: 'x10: (0.46..+inf)' => target: 1 
+c* cover: 'x12: (0.03..+inf)' => target: 1 
+c* cover: 'x13: (0.03..0.04]' => target: 1 
+c* cover: 'x13: (0.04..+inf)' => target: 1 
+c* cover: 'x14: (0.05..0.07]' => target: 1 
+c* cover: 'x3: (114.72..162.82]' => target: 0 
+c* cover: 'x19: (-4.6..+inf)' => target: 1 
+c* cover: not 'x4: (0.0..0.01]' => target: 0 
+c* cover: 'x10: (0.33..0.46]' => target: 0 
+c* cover: 'x9: (0.03..0.05]' => target: 1 
+c* cover: 'x13: (0.02..0.03]' => target: 1 
+c* cover: 'x10: (0.24..0.33]' => target: 0 
+c* cover: 'x3: (-inf..79.04]' => target: 1 
+c* cover: 'x15: (0.03..+inf)' => target: 1 
+c* cover: 'x18: (0.66..0.69]' => target: 0 
+c* cover: 'x20: (0.22..0.26]' => target: 1 
+c* cover: not 'x13: (0.01..0.02]' => target: 0 
+c* cover: 'x20: (0.31..+inf)' => target: 1 
+c* cover: 'x21: (2.5..2.7]' => target: 1 
+c* cover: 'x14: (-inf..0.02]' => target: 0 
+c* cover: 'x3: (79.04..90.07]' => target: 1 
+c* cover: 'x1: (122.38..148.79]' => target: 0 
+c* cover: 'x16: (18.48..20.41]' => target: 0 
+c* cover: 'x1: (170.85..201.21]' => target: 1 
+c* cover: 'x2: (175.83..209.86]' => target: 0 
+c* cover: not 'x8: (0.0..0.01]' => target: 1 
+c* cover: 'x1: (201.21..+inf)' => target: 0 
+c* cover: 'x2: (209.86..239.85]' => target: 0 
+c* cover: 'x2: (239.85..+inf)' => target: 1 
+c* cover: not 'x9: (0.01..0.02]' => target: 1 
+c* cover: 'x1: (114.66..122.38]' => target: 0 
+c* cover: 'x17: (0.62..+inf)' => target: 1 
+c* cover: 'x1: (-inf..114.66]' => target: 0 
+c* cover: true => target: 1 
+c* cover size: 38
+c* cover wght: 38
+c* accur: 100.00%

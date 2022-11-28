@@ -1,0 +1,8 @@
+c0 # of samps: 5071 (3430 weighted)
+c0 # of feats: 15 (29 binary)
+c0 # of labls: 2
+c0 parse time: 0.3614
+
+c3 total time: 52.8011
+
+Rules are saved to ../eclat_rules/size/q6_recidivism_train4.csv_size5.json

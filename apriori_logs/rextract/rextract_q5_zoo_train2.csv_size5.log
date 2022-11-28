@@ -1,0 +1,8 @@
+c0 # of samps: 81 (51 weighted)
+c0 # of feats: 16 (19 binary)
+c0 # of labls: 7
+c0 parse time: 0.2782
+
+c3 total time: 78.0851
+
+Rules are saved to ../apriori_rules/size/q5_zoo_train2.csv_size5.json

@@ -1,0 +1,2 @@
+schizo-train1-data.csv & 0.95 & 0.65 &25  &3 & 0.2 \\ 
+ \hline 

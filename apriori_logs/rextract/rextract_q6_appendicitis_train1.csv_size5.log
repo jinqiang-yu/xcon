@@ -1,0 +1,8 @@
+c0 # of samps: 84 (80 weighted)
+c0 # of feats: 7 (42 binary)
+c0 # of labls: 2
+c0 parse time: 0.2732
+
+c3 total time: 8.7977
+
+Rules are saved to ../apriori_rules/size/q6_appendicitis_train1.csv_size5.json

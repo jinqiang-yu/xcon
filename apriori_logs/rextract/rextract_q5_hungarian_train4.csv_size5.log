@@ -1,0 +1,8 @@
+c0 # of samps: 235 (231 weighted)
+c0 # of feats: 13 (49 binary)
+c0 # of labls: 2
+c0 parse time: 0.2604
+
+c3 total time: 207.3039
+
+Rules are saved to ../apriori_rules/size/q5_hungarian_train4.csv_size5.json

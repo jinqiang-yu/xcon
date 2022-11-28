@@ -1,0 +1,8 @@
+c0 # of samps: 1382 (1382 weighted)
+c0 # of feats: 6 (21 binary)
+c0 # of labls: 2
+c0 parse time: 0.2889
+
+c3 total time: 0.2941
+
+Rules are saved to ../eclat_rules/all/q6_car_train3.csv.json

@@ -1,0 +1,8 @@
+c0 # of samps: 131 (126 weighted)
+c0 # of feats: 9 (49 binary)
+c0 # of labls: 2
+c0 parse time: 0.2607
+
+c3 total time: 19110.4753
+
+Rules are saved to ../apriori_rules/all/q6_glass2_train5.csv.json

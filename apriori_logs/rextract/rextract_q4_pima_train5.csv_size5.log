@@ -1,0 +1,8 @@
+c0 # of samps: 615 (525 weighted)
+c0 # of feats: 8 (32 binary)
+c0 # of labls: 2
+c0 parse time: 0.2676
+
+c3 total time: 18.8524
+
+Rules are saved to ../apriori_rules/size/q4_pima_train5.csv_size5.json

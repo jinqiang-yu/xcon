@@ -1,0 +1,8 @@
+c0 # of samps: 1382 (1382 weighted)
+c0 # of feats: 6 (21 binary)
+c0 # of labls: 2
+c0 parse time: 0.3042
+
+c3 total time: 5.1569
+
+Rules are saved to ../apriori_rules/all/q6_car_train2.csv.json

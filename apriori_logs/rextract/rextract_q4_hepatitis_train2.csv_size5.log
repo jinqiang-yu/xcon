@@ -1,0 +1,8 @@
+c0 # of samps: 124 (121 weighted)
+c0 # of feats: 19 (57 binary)
+c0 # of labls: 2
+c0 parse time: 0.2636
+
+c3 total time: 1448.7016
+
+Rules are saved to ../apriori_rules/size/q4_hepatitis_train2.csv_size5.json

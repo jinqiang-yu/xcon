@@ -1,0 +1,8 @@
+c0 # of samps: 546 (344 weighted)
+c0 # of feats: 9 (36 binary)
+c0 # of labls: 2
+c0 parse time: 0.3009
+
+c3 total time: 2.1182
+
+Rules are saved to ../eclat_rules/size/q4_cancer_train2.csv_size5.json

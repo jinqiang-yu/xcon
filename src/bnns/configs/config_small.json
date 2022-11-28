@@ -1,0 +1,42 @@
+{
+    "name": "",
+    "id"  : "1", 
+    "manual_seed": 0,
+   	"save_dir": "./bnns/results/",
+   	"data": {
+   		"data_dir": "",
+   		"data_file": "",
+		"train_dir": "",		   
+		"train_file": "",		   
+		"test_dir": "",		   
+		"test_file": "",		   
+		"num_classes": -1,
+   		"input_size": -1,
+   		"use_one_hot": true,
+   		"donot_convert_data": false,
+   		"dataset": "",
+   		"test_size": 0.2   		
+   	},   	
+   	"model":{
+   	 "name": "mlp_binary",
+   	 "type": "cpu",
+   	 "type_model": "torch.FloatTensor",
+   	 "layers": [10, 5, 5, 2]
+   	},
+
+	"train":{
+		"epochs": 50,
+		"small_weight": 0.01,
+		"batch_size": 64,
+		"optimizer": "Adam",
+		"lr": 0.025,
+		"momentum": 0.9,
+		"weight_decay": 0.0001,
+		"print_freq": 10,
+		"loss": "CrossEntropyLoss",
+	   	"workers": 1,
+	   	"gpus": -1
+	   	 
+	}    
+
+}

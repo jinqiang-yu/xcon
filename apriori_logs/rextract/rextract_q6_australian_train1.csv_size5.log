@@ -1,0 +1,8 @@
+c0 # of samps: 552 (551 weighted)
+c0 # of feats: 14 (58 binary)
+c0 # of labls: 2
+c0 parse time: 0.2510
+
+c3 total time: 1532.3942
+
+Rules are saved to ../apriori_rules/size/q6_australian_train1.csv_size5.json

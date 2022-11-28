@@ -1,0 +1,386 @@
+2022-01-05 15:44:48 - INFO - saving to ./results/small/quantise/q4/other/mlic/pima_test1/
+2022-01-05 15:44:48 - DEBUG - run arguments: Namespace(config='./configs/config_small.json', data='../../paper_bench/complete/quantise/q4/other/mlic/pima_data.csv', encode=None, id=0, load=None, neighprec=-1, results='./results/small/quantise/q4/other/mlic/pima_test1/', test='../../paper_bench/cv/test/quantise/q4/other/mlic/pima_test1_data.csv', train='../../paper_bench/cv/train/quantise/q4/other/mlic/pima_train1_data.csv')
+2022-01-05 15:44:48 - INFO - creating model mlp_binary
+2022-01-05 15:44:48 - INFO - created model with configuration: {'name': 'mlp_binary', 'type': 'cpu', 'type_model': 'torch.FloatTensor', 'layers': [10, 5, 5, 2]}
+2022-01-05 15:44:48 - INFO - number of parameters: 467
+2022-01-05 15:44:48 - INFO - training regime: {0: {'optimizer': 'Adam', 'lr': 0.025, 'betas': (0.9, 0.999)}, 20: {'lr': 0.0025}, 50: {'lr': 0.00025}, 75: {'lr': 2.5e-05}}
+2022-01-05 15:44:48 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:48 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:48 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:48 - INFO - TRAINING - Epoch: [0][0/10]	Time 0.161 (0.161)	Data 0.149 (0.149)	Loss 2.3603 (2.3603)	Prec@1 50.000 (50.000)	
+2022-01-05 15:44:48 - INFO - EVALUATING - Epoch: [0][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.7740 (0.7740)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:48 - INFO - 
+ Epoch: 1	Training Loss 1.3811 	Training Prec@1 53.909 	Validation Loss 0.6808 	Validation Prec@1 72.078 	
+2022-01-05 15:44:48 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:48 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:48 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:48 - INFO - TRAINING - Epoch: [1][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.9576 (0.9576)	Prec@1 67.188 (67.188)	
+2022-01-05 15:44:49 - INFO - EVALUATING - Epoch: [1][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.7262 (0.7262)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:49 - INFO - 
+ Epoch: 2	Training Loss 0.8020 	Training Prec@1 63.355 	Validation Loss 0.7538 	Validation Prec@1 69.481 	
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:49 - INFO - TRAINING - Epoch: [2][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 1.2576 (1.2576)	Prec@1 39.062 (39.062)	
+2022-01-05 15:44:49 - INFO - EVALUATING - Epoch: [2][0/3]	Time 0.148 (0.148)	Data 0.145 (0.145)	Loss 1.3803 (1.3803)	Prec@1 23.438 (23.438)	
+2022-01-05 15:44:49 - INFO - 
+ Epoch: 3	Training Loss 1.0917 	Training Prec@1 59.935 	Validation Loss 1.2370 	Validation Prec@1 31.818 	
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:49 - INFO - TRAINING - Epoch: [3][0/10]	Time 0.159 (0.159)	Data 0.154 (0.154)	Loss 1.1746 (1.1746)	Prec@1 42.188 (42.188)	
+2022-01-05 15:44:49 - INFO - EVALUATING - Epoch: [3][0/3]	Time 0.147 (0.147)	Data 0.144 (0.144)	Loss 0.5661 (0.5661)	Prec@1 73.438 (73.438)	
+2022-01-05 15:44:49 - INFO - 
+ Epoch: 4	Training Loss 1.0043 	Training Prec@1 63.518 	Validation Loss 0.6279 	Validation Prec@1 72.727 	
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:49 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:49 - INFO - TRAINING - Epoch: [4][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.8704 (0.8704)	Prec@1 57.812 (57.812)	
+2022-01-05 15:44:50 - INFO - EVALUATING - Epoch: [4][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.8475 (0.8475)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:50 - INFO - 
+ Epoch: 5	Training Loss 0.9555 	Training Prec@1 65.472 	Validation Loss 0.8881 	Validation Prec@1 72.727 	
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:50 - INFO - TRAINING - Epoch: [5][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.9150 (0.9150)	Prec@1 73.438 (73.438)	
+2022-01-05 15:44:50 - INFO - EVALUATING - Epoch: [5][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.5968 (0.5968)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:50 - INFO - 
+ Epoch: 6	Training Loss 0.9127 	Training Prec@1 66.775 	Validation Loss 0.5851 	Validation Prec@1 73.377 	
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:50 - INFO - TRAINING - Epoch: [6][0/10]	Time 0.151 (0.151)	Data 0.146 (0.146)	Loss 0.6333 (0.6333)	Prec@1 67.188 (67.188)	
+2022-01-05 15:44:50 - INFO - EVALUATING - Epoch: [6][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.7816 (0.7816)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:50 - INFO - 
+ Epoch: 7	Training Loss 0.8932 	Training Prec@1 67.915 	Validation Loss 0.9475 	Validation Prec@1 63.636 	
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:50 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:51 - INFO - TRAINING - Epoch: [7][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5231 (0.5231)	Prec@1 79.688 (79.688)	
+2022-01-05 15:44:51 - INFO - EVALUATING - Epoch: [7][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.7196 (0.7196)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:51 - INFO - 
+ Epoch: 8	Training Loss 0.9063 	Training Prec@1 67.101 	Validation Loss 0.7977 	Validation Prec@1 68.831 	
+2022-01-05 15:44:51 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:51 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:51 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:51 - INFO - TRAINING - Epoch: [8][0/10]	Time 0.148 (0.148)	Data 0.143 (0.143)	Loss 0.7367 (0.7367)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:51 - INFO - EVALUATING - Epoch: [8][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.8631 (0.8631)	Prec@1 78.125 (78.125)	
+2022-01-05 15:44:51 - INFO - 
+ Epoch: 9	Training Loss 0.8371 	Training Prec@1 69.218 	Validation Loss 0.9204 	Validation Prec@1 74.026 	
+2022-01-05 15:44:51 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:51 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:51 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:51 - INFO - TRAINING - Epoch: [9][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 1.7189 (1.7189)	Prec@1 64.062 (64.062)	
+2022-01-05 15:44:52 - INFO - EVALUATING - Epoch: [9][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 1.0200 (1.0200)	Prec@1 76.562 (76.562)	
+2022-01-05 15:44:52 - INFO - 
+ Epoch: 10	Training Loss 1.0614 	Training Prec@1 63.355 	Validation Loss 1.1424 	Validation Prec@1 71.429 	
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:52 - INFO - TRAINING - Epoch: [10][0/10]	Time 0.148 (0.148)	Data 0.143 (0.143)	Loss 1.2184 (1.2184)	Prec@1 67.188 (67.188)	
+2022-01-05 15:44:52 - INFO - EVALUATING - Epoch: [10][0/3]	Time 0.145 (0.145)	Data 0.142 (0.142)	Loss 0.7427 (0.7427)	Prec@1 78.125 (78.125)	
+2022-01-05 15:44:52 - INFO - 
+ Epoch: 11	Training Loss 1.3649 	Training Prec@1 54.886 	Validation Loss 0.8503 	Validation Prec@1 74.026 	
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:52 - INFO - TRAINING - Epoch: [11][0/10]	Time 0.153 (0.153)	Data 0.148 (0.148)	Loss 1.0190 (1.0190)	Prec@1 62.500 (62.500)	
+2022-01-05 15:44:52 - INFO - EVALUATING - Epoch: [11][0/3]	Time 0.147 (0.147)	Data 0.144 (0.144)	Loss 0.7590 (0.7590)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:52 - INFO - 
+ Epoch: 12	Training Loss 0.9634 	Training Prec@1 62.541 	Validation Loss 0.8682 	Validation Prec@1 68.831 	
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:52 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:52 - INFO - TRAINING - Epoch: [12][0/10]	Time 0.151 (0.151)	Data 0.146 (0.146)	Loss 1.0124 (1.0124)	Prec@1 56.250 (56.250)	
+2022-01-05 15:44:53 - INFO - EVALUATING - Epoch: [12][0/3]	Time 0.154 (0.154)	Data 0.151 (0.151)	Loss 0.8989 (0.8989)	Prec@1 65.625 (65.625)	
+2022-01-05 15:44:53 - INFO - 
+ Epoch: 13	Training Loss 0.8568 	Training Prec@1 64.658 	Validation Loss 1.1065 	Validation Prec@1 61.039 	
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:53 - INFO - TRAINING - Epoch: [13][0/10]	Time 0.172 (0.172)	Data 0.165 (0.165)	Loss 0.7074 (0.7074)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:53 - INFO - EVALUATING - Epoch: [13][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.5988 (0.5988)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:53 - INFO - 
+ Epoch: 14	Training Loss 0.8329 	Training Prec@1 66.938 	Validation Loss 0.5879 	Validation Prec@1 73.377 	
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:53 - INFO - TRAINING - Epoch: [14][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.7010 (0.7010)	Prec@1 57.812 (57.812)	
+2022-01-05 15:44:53 - INFO - EVALUATING - Epoch: [14][0/3]	Time 0.152 (0.152)	Data 0.150 (0.150)	Loss 0.4702 (0.4702)	Prec@1 79.688 (79.688)	
+2022-01-05 15:44:53 - INFO - 
+ Epoch: 15	Training Loss 0.9395 	Training Prec@1 60.423 	Validation Loss 0.6629 	Validation Prec@1 77.922 	
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:53 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:54 - INFO - TRAINING - Epoch: [15][0/10]	Time 0.179 (0.179)	Data 0.173 (0.173)	Loss 0.7492 (0.7492)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:54 - INFO - EVALUATING - Epoch: [15][0/3]	Time 0.152 (0.152)	Data 0.150 (0.150)	Loss 0.6757 (0.6757)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:54 - INFO - 
+ Epoch: 16	Training Loss 0.9883 	Training Prec@1 62.052 	Validation Loss 0.8062 	Validation Prec@1 67.532 	
+2022-01-05 15:44:54 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:54 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:54 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:54 - INFO - TRAINING - Epoch: [16][0/10]	Time 0.152 (0.152)	Data 0.147 (0.147)	Loss 1.0878 (1.0878)	Prec@1 57.812 (57.812)	
+2022-01-05 15:44:54 - INFO - EVALUATING - Epoch: [16][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.7831 (0.7831)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:54 - INFO - 
+ Epoch: 17	Training Loss 0.8232 	Training Prec@1 67.264 	Validation Loss 0.9396 	Validation Prec@1 67.532 	
+2022-01-05 15:44:54 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:54 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:54 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:54 - INFO - TRAINING - Epoch: [17][0/10]	Time 0.151 (0.151)	Data 0.146 (0.146)	Loss 0.5932 (0.5932)	Prec@1 79.688 (79.688)	
+2022-01-05 15:44:55 - INFO - EVALUATING - Epoch: [17][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.6705 (0.6705)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:55 - INFO - 
+ Epoch: 18	Training Loss 1.0042 	Training Prec@1 63.029 	Validation Loss 0.6634 	Validation Prec@1 73.377 	
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:55 - INFO - TRAINING - Epoch: [18][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.5889 (0.5889)	Prec@1 67.188 (67.188)	
+2022-01-05 15:44:55 - INFO - EVALUATING - Epoch: [18][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.6327 (0.6327)	Prec@1 68.750 (68.750)	
+2022-01-05 15:44:55 - INFO - 
+ Epoch: 19	Training Loss 0.9397 	Training Prec@1 67.264 	Validation Loss 0.6165 	Validation Prec@1 66.234 	
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:55 - INFO - TRAINING - Epoch: [19][0/10]	Time 0.154 (0.154)	Data 0.149 (0.149)	Loss 0.8263 (0.8263)	Prec@1 65.625 (65.625)	
+2022-01-05 15:44:55 - INFO - EVALUATING - Epoch: [19][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.5989 (0.5989)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:55 - INFO - 
+ Epoch: 20	Training Loss 0.7425 	Training Prec@1 70.684 	Validation Loss 0.5880 	Validation Prec@1 73.377 	
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:55 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:56 - INFO - TRAINING - Epoch: [20][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.5876 (0.5876)	Prec@1 73.438 (73.438)	
+2022-01-05 15:44:56 - INFO - EVALUATING - Epoch: [20][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.4978 (0.4978)	Prec@1 73.438 (73.438)	
+2022-01-05 15:44:56 - INFO - 
+ Epoch: 21	Training Loss 0.6564 	Training Prec@1 70.684 	Validation Loss 0.5254 	Validation Prec@1 68.182 	
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:56 - INFO - TRAINING - Epoch: [21][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5876 (0.5876)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:56 - INFO - EVALUATING - Epoch: [21][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.5190 (0.5190)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:56 - INFO - 
+ Epoch: 22	Training Loss 0.5783 	Training Prec@1 70.847 	Validation Loss 0.5295 	Validation Prec@1 67.532 	
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:56 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:56 - INFO - TRAINING - Epoch: [22][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5777 (0.5777)	Prec@1 64.062 (64.062)	
+2022-01-05 15:44:57 - INFO - EVALUATING - Epoch: [22][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.5191 (0.5191)	Prec@1 70.312 (70.312)	
+2022-01-05 15:44:57 - INFO - 
+ Epoch: 23	Training Loss 0.5792 	Training Prec@1 74.267 	Validation Loss 0.5296 	Validation Prec@1 67.532 	
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:57 - INFO - TRAINING - Epoch: [23][0/10]	Time 0.155 (0.155)	Data 0.149 (0.149)	Loss 0.4787 (0.4787)	Prec@1 82.812 (82.812)	
+2022-01-05 15:44:57 - INFO - EVALUATING - Epoch: [23][0/3]	Time 0.150 (0.150)	Data 0.148 (0.148)	Loss 0.5170 (0.5170)	Prec@1 78.125 (78.125)	
+2022-01-05 15:44:57 - INFO - 
+ Epoch: 24	Training Loss 0.5686 	Training Prec@1 75.896 	Validation Loss 0.5370 	Validation Prec@1 76.623 	
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:57 - INFO - TRAINING - Epoch: [24][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.5214 (0.5214)	Prec@1 76.562 (76.562)	
+2022-01-05 15:44:57 - INFO - EVALUATING - Epoch: [24][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.5069 (0.5069)	Prec@1 75.000 (75.000)	
+2022-01-05 15:44:57 - INFO - 
+ Epoch: 25	Training Loss 0.6817 	Training Prec@1 69.707 	Validation Loss 0.5116 	Validation Prec@1 71.429 	
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:57 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:57 - INFO - TRAINING - Epoch: [25][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.5786 (0.5786)	Prec@1 75.000 (75.000)	
+2022-01-05 15:44:58 - INFO - EVALUATING - Epoch: [25][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.5249 (0.5249)	Prec@1 76.562 (76.562)	
+2022-01-05 15:44:58 - INFO - 
+ Epoch: 26	Training Loss 0.6083 	Training Prec@1 72.638 	Validation Loss 0.5075 	Validation Prec@1 77.922 	
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:58 - INFO - TRAINING - Epoch: [26][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5044 (0.5044)	Prec@1 75.000 (75.000)	
+2022-01-05 15:44:58 - INFO - EVALUATING - Epoch: [26][0/3]	Time 0.144 (0.144)	Data 0.141 (0.141)	Loss 0.4761 (0.4761)	Prec@1 78.125 (78.125)	
+2022-01-05 15:44:58 - INFO - 
+ Epoch: 27	Training Loss 0.6024 	Training Prec@1 71.498 	Validation Loss 0.4972 	Validation Prec@1 75.974 	
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:58 - INFO - TRAINING - Epoch: [27][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.5780 (0.5780)	Prec@1 73.438 (73.438)	
+2022-01-05 15:44:58 - INFO - EVALUATING - Epoch: [27][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.6018 (0.6018)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:58 - INFO - 
+ Epoch: 28	Training Loss 0.6697 	Training Prec@1 72.801 	Validation Loss 0.5917 	Validation Prec@1 73.377 	
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:58 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:59 - INFO - TRAINING - Epoch: [28][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.7167 (0.7167)	Prec@1 54.688 (54.688)	
+2022-01-05 15:44:59 - INFO - EVALUATING - Epoch: [28][0/3]	Time 0.148 (0.148)	Data 0.145 (0.145)	Loss 0.5264 (0.5264)	Prec@1 75.000 (75.000)	
+2022-01-05 15:44:59 - INFO - 
+ Epoch: 29	Training Loss 0.6612 	Training Prec@1 68.730 	Validation Loss 0.4920 	Validation Prec@1 77.273 	
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:59 - INFO - TRAINING - Epoch: [29][0/10]	Time 0.151 (0.151)	Data 0.146 (0.146)	Loss 0.5774 (0.5774)	Prec@1 71.875 (71.875)	
+2022-01-05 15:44:59 - INFO - EVALUATING - Epoch: [29][0/3]	Time 0.147 (0.147)	Data 0.145 (0.145)	Loss 0.6432 (0.6432)	Prec@1 73.438 (73.438)	
+2022-01-05 15:44:59 - INFO - 
+ Epoch: 30	Training Loss 0.6689 	Training Prec@1 66.287 	Validation Loss 0.6794 	Validation Prec@1 69.481 	
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:44:59 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:44:59 - INFO - TRAINING - Epoch: [30][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.6310 (0.6310)	Prec@1 70.312 (70.312)	
+2022-01-05 15:45:00 - INFO - EVALUATING - Epoch: [30][0/3]	Time 0.147 (0.147)	Data 0.145 (0.145)	Loss 0.5362 (0.5362)	Prec@1 78.125 (78.125)	
+2022-01-05 15:45:00 - INFO - 
+ Epoch: 31	Training Loss 0.6732 	Training Prec@1 62.052 	Validation Loss 0.5816 	Validation Prec@1 75.325 	
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:00 - INFO - TRAINING - Epoch: [31][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.4818 (0.4818)	Prec@1 81.250 (81.250)	
+2022-01-05 15:45:00 - INFO - EVALUATING - Epoch: [31][0/3]	Time 0.148 (0.148)	Data 0.145 (0.145)	Loss 0.4992 (0.4992)	Prec@1 75.000 (75.000)	
+2022-01-05 15:45:00 - INFO - 
+ Epoch: 32	Training Loss 0.6155 	Training Prec@1 75.733 	Validation Loss 0.6042 	Validation Prec@1 71.429 	
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:00 - INFO - TRAINING - Epoch: [32][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.5241 (0.5241)	Prec@1 75.000 (75.000)	
+2022-01-05 15:45:00 - INFO - EVALUATING - Epoch: [32][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.4989 (0.4989)	Prec@1 73.438 (73.438)	
+2022-01-05 15:45:00 - INFO - 
+ Epoch: 33	Training Loss 0.6833 	Training Prec@1 68.893 	Validation Loss 0.5307 	Validation Prec@1 68.831 	
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:00 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:01 - INFO - TRAINING - Epoch: [33][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5519 (0.5519)	Prec@1 78.125 (78.125)	
+2022-01-05 15:45:01 - INFO - EVALUATING - Epoch: [33][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.5249 (0.5249)	Prec@1 76.562 (76.562)	
+2022-01-05 15:45:01 - INFO - 
+ Epoch: 34	Training Loss 0.5955 	Training Prec@1 73.779 	Validation Loss 0.5554 	Validation Prec@1 75.325 	
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:01 - INFO - TRAINING - Epoch: [34][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.4875 (0.4875)	Prec@1 78.125 (78.125)	
+2022-01-05 15:45:01 - INFO - EVALUATING - Epoch: [34][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.5661 (0.5661)	Prec@1 75.000 (75.000)	
+2022-01-05 15:45:01 - INFO - 
+ Epoch: 35	Training Loss 0.6109 	Training Prec@1 72.150 	Validation Loss 0.5941 	Validation Prec@1 73.377 	
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:01 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:01 - INFO - TRAINING - Epoch: [35][0/10]	Time 0.154 (0.154)	Data 0.149 (0.149)	Loss 0.6234 (0.6234)	Prec@1 76.562 (76.562)	
+2022-01-05 15:45:02 - INFO - EVALUATING - Epoch: [35][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.4676 (0.4676)	Prec@1 76.562 (76.562)	
+2022-01-05 15:45:02 - INFO - 
+ Epoch: 36	Training Loss 0.6197 	Training Prec@1 75.244 	Validation Loss 0.5136 	Validation Prec@1 70.130 	
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:02 - INFO - TRAINING - Epoch: [36][0/10]	Time 0.152 (0.152)	Data 0.147 (0.147)	Loss 0.5611 (0.5611)	Prec@1 70.312 (70.312)	
+2022-01-05 15:45:02 - INFO - EVALUATING - Epoch: [36][0/3]	Time 0.148 (0.148)	Data 0.146 (0.146)	Loss 0.7749 (0.7749)	Prec@1 28.125 (28.125)	
+2022-01-05 15:45:02 - INFO - 
+ Epoch: 37	Training Loss 0.6147 	Training Prec@1 73.941 	Validation Loss 0.7796 	Validation Prec@1 26.623 	
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:02 - INFO - TRAINING - Epoch: [37][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.7551 (0.7551)	Prec@1 34.375 (34.375)	
+2022-01-05 15:45:02 - INFO - EVALUATING - Epoch: [37][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.4676 (0.4676)	Prec@1 76.562 (76.562)	
+2022-01-05 15:45:02 - INFO - 
+ Epoch: 38	Training Loss 0.6566 	Training Prec@1 70.521 	Validation Loss 0.5086 	Validation Prec@1 71.429 	
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:02 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:03 - INFO - TRAINING - Epoch: [38][0/10]	Time 0.152 (0.152)	Data 0.147 (0.147)	Loss 0.5510 (0.5510)	Prec@1 76.562 (76.562)	
+2022-01-05 15:45:03 - INFO - EVALUATING - Epoch: [38][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.5298 (0.5298)	Prec@1 75.000 (75.000)	
+2022-01-05 15:45:03 - INFO - 
+ Epoch: 39	Training Loss 0.6598 	Training Prec@1 69.381 	Validation Loss 0.5219 	Validation Prec@1 71.429 	
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:03 - INFO - TRAINING - Epoch: [39][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.5686 (0.5686)	Prec@1 78.125 (78.125)	
+2022-01-05 15:45:03 - INFO - EVALUATING - Epoch: [39][0/3]	Time 0.152 (0.152)	Data 0.150 (0.150)	Loss 0.4788 (0.4788)	Prec@1 75.000 (75.000)	
+2022-01-05 15:45:03 - INFO - 
+ Epoch: 40	Training Loss 0.6250 	Training Prec@1 73.127 	Validation Loss 0.5231 	Validation Prec@1 68.831 	
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:03 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:03 - INFO - TRAINING - Epoch: [40][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.4629 (0.4629)	Prec@1 78.125 (78.125)	
+2022-01-05 15:45:03 - INFO - EVALUATING - Epoch: [40][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.8941 (0.8941)	Prec@1 65.625 (65.625)	
+2022-01-05 15:45:04 - INFO - 
+ Epoch: 41	Training Loss 0.6533 	Training Prec@1 70.358 	Validation Loss 0.9565 	Validation Prec@1 61.039 	
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:04 - INFO - TRAINING - Epoch: [41][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.7946 (0.7946)	Prec@1 70.312 (70.312)	
+2022-01-05 15:45:04 - INFO - EVALUATING - Epoch: [41][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.5812 (0.5812)	Prec@1 65.625 (65.625)	
+2022-01-05 15:45:04 - INFO - 
+ Epoch: 42	Training Loss 0.6819 	Training Prec@1 70.521 	Validation Loss 0.5561 	Validation Prec@1 65.584 	
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:04 - INFO - TRAINING - Epoch: [42][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.7220 (0.7220)	Prec@1 70.312 (70.312)	
+2022-01-05 15:45:04 - INFO - EVALUATING - Epoch: [42][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.5580 (0.5580)	Prec@1 73.438 (73.438)	
+2022-01-05 15:45:04 - INFO - 
+ Epoch: 43	Training Loss 0.5529 	Training Prec@1 75.733 	Validation Loss 0.6552 	Validation Prec@1 67.532 	
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:04 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:04 - INFO - TRAINING - Epoch: [43][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.9106 (0.9106)	Prec@1 65.625 (65.625)	
+2022-01-05 15:45:05 - INFO - EVALUATING - Epoch: [43][0/3]	Time 0.148 (0.148)	Data 0.145 (0.145)	Loss 0.5298 (0.5298)	Prec@1 75.000 (75.000)	
+2022-01-05 15:45:05 - INFO - 
+ Epoch: 44	Training Loss 0.6659 	Training Prec@1 75.081 	Validation Loss 0.5208 	Validation Prec@1 72.727 	
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:05 - INFO - TRAINING - Epoch: [44][0/10]	Time 0.150 (0.150)	Data 0.145 (0.145)	Loss 0.4539 (0.4539)	Prec@1 81.250 (81.250)	
+2022-01-05 15:45:05 - INFO - EVALUATING - Epoch: [44][0/3]	Time 0.145 (0.145)	Data 0.143 (0.143)	Loss 0.4896 (0.4896)	Prec@1 73.438 (73.438)	
+2022-01-05 15:45:05 - INFO - 
+ Epoch: 45	Training Loss 0.7160 	Training Prec@1 69.870 	Validation Loss 0.5411 	Validation Prec@1 66.234 	
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:05 - INFO - TRAINING - Epoch: [45][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5401 (0.5401)	Prec@1 73.438 (73.438)	
+2022-01-05 15:45:05 - INFO - EVALUATING - Epoch: [45][0/3]	Time 0.146 (0.146)	Data 0.143 (0.143)	Loss 0.5012 (0.5012)	Prec@1 71.875 (71.875)	
+2022-01-05 15:45:05 - INFO - 
+ Epoch: 46	Training Loss 0.6484 	Training Prec@1 69.055 	Validation Loss 0.5356 	Validation Prec@1 64.935 	
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:05 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:06 - INFO - TRAINING - Epoch: [46][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5185 (0.5185)	Prec@1 71.875 (71.875)	
+2022-01-05 15:45:06 - INFO - EVALUATING - Epoch: [46][0/3]	Time 0.145 (0.145)	Data 0.142 (0.142)	Loss 0.5196 (0.5196)	Prec@1 73.438 (73.438)	
+2022-01-05 15:45:06 - INFO - 
+ Epoch: 47	Training Loss 0.5983 	Training Prec@1 74.756 	Validation Loss 0.5168 	Validation Prec@1 74.675 	
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:06 - INFO - TRAINING - Epoch: [47][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.7063 (0.7063)	Prec@1 68.750 (68.750)	
+2022-01-05 15:45:06 - INFO - EVALUATING - Epoch: [47][0/3]	Time 0.144 (0.144)	Data 0.141 (0.141)	Loss 0.4598 (0.4598)	Prec@1 78.125 (78.125)	
+2022-01-05 15:45:06 - INFO - 
+ Epoch: 48	Training Loss 0.6062 	Training Prec@1 71.661 	Validation Loss 0.4939 	Validation Prec@1 75.974 	
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:06 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:06 - INFO - TRAINING - Epoch: [48][0/10]	Time 0.149 (0.149)	Data 0.144 (0.144)	Loss 0.5700 (0.5700)	Prec@1 70.312 (70.312)	
+2022-01-05 15:45:07 - INFO - EVALUATING - Epoch: [48][0/3]	Time 0.147 (0.147)	Data 0.145 (0.145)	Loss 0.4581 (0.4581)	Prec@1 81.250 (81.250)	
+2022-01-05 15:45:07 - INFO - 
+ Epoch: 49	Training Loss 0.5480 	Training Prec@1 76.384 	Validation Loss 0.5390 	Validation Prec@1 72.727 	
+2022-01-05 15:45:07 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-05 15:45:07 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-05 15:45:07 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-05 15:45:07 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-05 15:45:07 - INFO - TRAINING - Epoch: [49][0/10]	Time 0.151 (0.151)	Data 0.145 (0.145)	Loss 0.6176 (0.6176)	Prec@1 70.312 (70.312)	
+2022-01-05 15:45:07 - INFO - EVALUATING - Epoch: [49][0/3]	Time 0.146 (0.146)	Data 0.144 (0.144)	Loss 0.5454 (0.5454)	Prec@1 76.562 (76.562)	
+2022-01-05 15:45:07 - INFO - 
+ Epoch: 50	Training Loss 0.6348 	Training Prec@1 70.684 	Validation Loss 0.5129 	Validation Prec@1 75.974 	

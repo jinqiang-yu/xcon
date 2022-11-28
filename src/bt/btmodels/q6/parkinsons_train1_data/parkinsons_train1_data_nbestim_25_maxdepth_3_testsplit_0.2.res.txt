@@ -1,0 +1,2 @@
+parkinsons-train1-data.csv & 1.0 & 0.87 &25  &3 & 0.2 \\ 
+ \hline 

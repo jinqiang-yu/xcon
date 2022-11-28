@@ -1,0 +1,31 @@
+c* cover: 'At1: (0.49..0.59]' => target: 0 
+c* cover: 'At2: (0.86..+inf)' => target: 0 
+c* cover: 'At3: (0.51..0.6]' => target: 0 
+c* cover: 'At4: (0.37..0.57]' => target: 0 
+c* cover: 'At5: (0.14..0.19]' => target: 0 
+c* cover: 'At5: (0.32..+inf)' => target: 0 
+c* cover: 'At6: (0.8..0.86]' => target: 0 
+c* cover: 'At4: (0.57..+inf)' => target: 1 
+c* cover: 'At7: (0.45..0.53]' => target: 0 
+c* cover: 'At7: (0.39..0.45]', not 'At1: (0.42..0.49]' => target: 0 
+c* cover: 'At1: (0.42..0.49]', not 'At2: (0.61..0.74]' => target: 0 
+c* cover: 'At1: (-inf..0.19]', not 'At2: (-inf..0.26]' => target: 1 
+c* cover: 'At2: (0.47..0.61]' => target: 0 
+c* cover: 'At4: (0.28..0.37]' => target: 1 
+c* cover: 'At6: (0.86..+inf)' => target: 1 
+c* cover: 'At1: (0.59..+inf)' => target: 0 
+c* cover: 'At2: (0.74..0.86]' => target: 1 
+c* cover: 'At5: (0.05..0.09]' => target: 0 
+c* cover: 'At1: (0.42..0.49]', not 'At3: (0.44..0.51]' => target: 0 
+c* cover: 'At3: (0.34..0.44]' => target: 1 
+c* cover: 'At1: (0.32..0.42]' => target: 0 
+c* cover: 'At4: (0.09..0.18]' => target: 1 
+c* cover: 'At1: (0.42..0.49]' => target: 0 
+c* cover: 'At2: (0.26..0.47]' => target: 0 
+c* cover: 'At7: (0.15..0.28]' => target: 0 
+c* cover: 'At1: (0.19..0.32]' => target: 1 
+c* cover: 'At1: (-inf..0.19]' => target: 1 
+c* cover: true => target: 0 
+c* cover size: 28
+c* cover wght: 32
+c* accur: 98.81%

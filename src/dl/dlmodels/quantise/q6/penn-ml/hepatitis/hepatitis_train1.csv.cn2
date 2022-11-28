@@ -1,0 +1,34 @@
+c* cover: 'AGE: (62.0..+inf)' => target: 2 
+c* cover: 'AGE: (-inf..28.0]' => target: 2 
+c* cover: not 'SEX: 1' => target: 2 
+c* cover: 'STEROID: 2' => target: 2 
+c* cover: 'FATIGUE: 2' => target: 2 
+c* cover: 'SPLEEN PALPABLE: 2' => target: 2 
+c* cover: 'ALBUMIN: (19.33..24.17]' => target: 2 
+c* cover: 'PROTIME: (22.0..29.33]' => target: 2 
+c* cover: 'ALBUMIN: (14.5..19.33]', 'AGE: (37.0..45.0]' => target: 2 
+c* cover: not 'FATIGUE: 0', 'AGE: (53.0..62.0]' => target: 2 
+c* cover: 'ALBUMIN: (14.5..19.33]', 'ANTIVIRALS: 1' => target: 2 
+c* cover: 'ALBUMIN: (14.5..19.33]', 'LIVER BIG: 2' => target: 2 
+c* cover: 'LIVER BIG: 2' => target: 1 
+c* cover: 'AGE: (28.0..37.0]', 'ANTIVIRALS: 1' => target: 2 
+c* cover: 'AGE: (28.0..37.0]', not 'FATIGUE: 0' => target: 2 
+c* cover: 'PROTIME: (7.33..14.67]' => target: 1 
+c* cover: 'ALK PHOSPHATE: (41.5..55.33]' => target: 2 
+c* cover: 'ALBUMIN: (-inf..4.83]' => target: 1 
+c* cover: 'SGOT: (42.0..56.0]' => target: 2 
+c* cover: not 'SPIDERS: 0', not 'AGE: (37.0..45.0]' => target: 2 
+c* cover: not 'SPIDERS: 0', not 'FATIGUE: 0' => target: 1 
+c* cover: not 'SPIDERS: 0' => target: 2 
+c* cover: 'ASCITES: 0' => target: 1 
+c* cover: 'AGE: (28.0..37.0]' => target: 2 
+c* cover: not 'LIVER FIRM: 0' => target: 1 
+c* cover: 'AGE: (45.0..53.0]' => target: 2 
+c* cover: not 'STEROID: 0' => target: 1 
+c* cover: 'AGE: (37.0..45.0]' => target: 2 
+c* cover: 'ANOREXIA: 0' => target: 1 
+c* cover: 'AGE: (53.0..62.0]' => target: 2 
+c* cover: true => target: 2 
+c* cover size: 31
+c* cover wght: 39
+c* accur: 100.00%

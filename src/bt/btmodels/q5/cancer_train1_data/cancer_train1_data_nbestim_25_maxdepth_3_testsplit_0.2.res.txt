@@ -1,0 +1,2 @@
+cancer-train1-data.csv & 0.98 & 0.93 &25  &3 & 0.2 \\ 
+ \hline 

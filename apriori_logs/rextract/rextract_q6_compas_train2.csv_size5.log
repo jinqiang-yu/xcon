@@ -1,0 +1,8 @@
+c0 # of samps: 4937 (354 weighted)
+c0 # of feats: 11 (16 binary)
+c0 # of labls: 2
+c0 parse time: 0.2897
+
+c3 total time: 29.7879
+
+Rules are saved to ../apriori_rules/size/q6_compas_train2.csv_size5.json

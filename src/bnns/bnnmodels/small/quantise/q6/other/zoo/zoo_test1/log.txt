@@ -1,0 +1,17 @@
+2022-06-15 16:47:41 - INFO - saving to ./bnns/bnnmodels/small/quantise/q6/other/zoo/zoo_test1/
+2022-06-15 16:47:41 - DEBUG - run arguments: Namespace(config='./bnns/configs/config_small.json', data='../bench/complete/quantise/q6/other/zoo/zoo_data.csv', encode=None, id=0, load=None, neighprec=-1, results='./bnns/bnnmodels/small/quantise/q6/other/zoo/zoo_test1/', test='../bench/cv/test/quantise/q6/other/zoo/zoo_test1_data.csv', train='../bench/cv/train/quantise/q6/other/zoo/zoo_train1_data.csv')
+2022-06-15 16:47:41 - INFO - creating model mlp_binary
+2022-06-15 16:47:41 - INFO - created model with configuration: {'name': 'mlp_binary', 'type': 'cpu', 'type_model': 'torch.FloatTensor', 'layers': [10, 5, 5, 7]}
+2022-06-15 16:47:41 - INFO - number of parameters: 537
+2022-06-15 16:47:41 - INFO - training regime: {0: {'optimizer': 'Adam', 'lr': 0.025, 'betas': (0.9, 0.999)}, 20: {'lr': 0.0025}, 50: {'lr': 0.00025}, 75: {'lr': 2.5e-05}}
+2022-06-15 16:47:41 - DEBUG - OPTIMIZER - setting method = Adam
+2022-06-15 16:47:41 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-06-15 16:47:41 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-06-15 16:47:43 - INFO - TRAINING - Epoch: [0][0/2]	Time 2.015 (2.015)	Data 1.971 (1.971)	Loss 3.1676 (3.1676)	Prec@1 17.188 (17.188)	
+2022-06-15 16:47:50 - INFO - EVALUATING - Epoch: [0][0/1]	Time 1.677 (1.677)	Data 1.675 (1.675)	Loss 3.1040 (3.1040)	Prec@1 4.762 (4.762)	
+2022-06-15 16:47:55 - INFO - 
+ Epoch: 1	Training Loss 2.9602 	Training Prec@1 15.000 	Validation Loss 3.1040 	Validation Prec@1 4.762 	
+2022-06-15 16:47:55 - DEBUG - OPTIMIZER - setting method = Adam
+2022-06-15 16:47:55 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-06-15 16:47:55 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-06-15 16:47:57 - INFO - TRAINING - Epoch: [1][0/2]	Time 1.684 (1.684)	Data 1.681 (1.681)	Loss 1.7916 (1.7916)	Prec@1 25.000 (25.000)	

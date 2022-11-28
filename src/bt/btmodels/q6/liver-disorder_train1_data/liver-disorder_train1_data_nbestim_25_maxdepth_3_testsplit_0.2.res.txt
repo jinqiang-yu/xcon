@@ -1,0 +1,2 @@
+liver-disorder-train1-data.csv & 0.82 & 0.81 &25  &3 & 0.2 \\ 
+ \hline 

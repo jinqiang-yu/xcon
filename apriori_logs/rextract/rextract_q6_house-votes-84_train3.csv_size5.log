@@ -1,0 +1,8 @@
+c0 # of samps: 348 (251 weighted)
+c0 # of feats: 16 (16 binary)
+c0 # of labls: 2
+c0 parse time: 0.2827
+
+c3 total time: 444.1507
+
+Rules are saved to ../apriori_rules/size/q6_house-votes-84_train3.csv_size5.json

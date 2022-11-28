@@ -1,0 +1,8 @@
+c0 # of samps: 216 (214 weighted)
+c0 # of feats: 13 (50 binary)
+c0 # of labls: 2
+c0 parse time: 0.3120
+
+c3 total time: 48.7990
+
+Rules are saved to ../eclat_rules/size/q6_heart-statlog_train4.csv_size5.json

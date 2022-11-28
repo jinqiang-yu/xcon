@@ -1,0 +1,8 @@
+c0 # of samps: 167 (166 weighted)
+c0 # of feats: 8 (40 binary)
+c0 # of labls: 2
+c0 parse time: 0.2802
+
+c3 total time: 11.5568
+
+Rules are saved to ../apriori_rules/size/q5_biomed_train3.csv_size5.json

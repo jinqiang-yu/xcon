@@ -1,0 +1,8 @@
+c0 # of samps: 81 (50 weighted)
+c0 # of feats: 16 (21 binary)
+c0 # of labls: 7
+c0 parse time: 0.3272
+
+c3 total time: 4.3370
+
+Rules are saved to ../eclat_rules/size/q6_zoo_train5.csv_size5.json

@@ -1,0 +1,44 @@
+c* cover: not 'SEX: 1' => target: 2 
+c* cover: 'STEROID: 2' => target: 2 
+c* cover: 'FATIGUE: 2' => target: 2 
+c* cover: not 'FATIGUE: 0', 'AGE: (-inf..33.0]' => target: 2 
+c* cover: 'ALBUMIN: (14.5..21.75]', 'AGE: (58.0..+inf)' => target: 2 
+c* cover: 'PROTIME: (22.0..33.0]', not 'AGE: (45.0..58.0]' => target: 2 
+c* cover: not 'FATIGUE: 0', 'ANTIVIRALS: 1' => target: 2 
+c* cover: 'ALBUMIN: (14.5..21.75]', 'AGE: (-inf..33.0]' => target: 2 
+c* cover: not 'FATIGUE: 0', 'LIVER BIG: 0' => target: 2 
+c* cover: not 'FATIGUE: 0', 'SPLEEN PALPABLE: 0' => target: 2 
+c* cover: not 'FATIGUE: 0', 'LIVER FIRM: 0' => target: 1 
+c* cover: not 'FATIGUE: 0', not 'AGE: (45.0..58.0]' => target: 2 
+c* cover: 'ANTIVIRALS: 1', not 'AGE: (33.0..45.0]' => target: 2 
+c* cover: not 'FATIGUE: 0', not 'STEROID: 1' => target: 2 
+c* cover: 'ALBUMIN: (14.5..21.75]', 'ANTIVIRALS: 1' => target: 2 
+c* cover: 'ANTIVIRALS: 1' => target: 1 
+c* cover: 'LIVER BIG: 2', not 'AGE: (45.0..58.0]' => target: 1 
+c* cover: 'AGE: (58.0..+inf)' => target: 2 
+c* cover: 'SPLEEN PALPABLE: 2' => target: 2 
+c* cover: 'LIVER BIG: 2' => target: 1 
+c* cover: not 'SPIDERS: 0', not 'FATIGUE: 0' => target: 2 
+c* cover: not 'FATIGUE: 0' => target: 1 
+c* cover: 'PROTIME: (22.0..33.0]' => target: 2 
+c* cover: 'ASCITES: 0', 'AGE: (45.0..58.0]' => target: 1 
+c* cover: 'SGOT: (42.0..63.0]' => target: 2 
+c* cover: not 'SPIDERS: 0', 'AGE: (45.0..58.0]' => target: 2 
+c* cover: 'BILIRUBIN: (25.5..+inf)', not 'AGE: (45.0..58.0]' => target: 1 
+c* cover: not 'SPIDERS: 0', not 'STEROID: 0' => target: 2 
+c* cover: 'ALK PHOSPHATE: (-inf..20.75]' => target: 1 
+c* cover: 'PROTIME: (11.0..22.0]' => target: 2 
+c* cover: 'BILIRUBIN: (25.5..+inf)' => target: 1 
+c* cover: 'ALBUMIN: (21.75..+inf)' => target: 2 
+c* cover: 'BILIRUBIN: (17.0..25.5]' => target: 1 
+c* cover: 'VARICES: 0' => target: 2 
+c* cover: 'ALK PHOSPHATE: (41.5..62.25]' => target: 1 
+c* cover: 'AGE: (-inf..33.0]' => target: 2 
+c* cover: 'STEROID: 0' => target: 2 
+c* cover: 'AGE: (33.0..45.0]' => target: 1 
+c* cover: 'MALAISE: 0' => target: 2 
+c* cover: 'AGE: (45.0..58.0]' => target: 1 
+c* cover: true => target: 2 
+c* cover size: 41
+c* cover wght: 59
+c* accur: 100.00%

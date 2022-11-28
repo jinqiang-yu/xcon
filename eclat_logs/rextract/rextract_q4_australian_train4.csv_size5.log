@@ -1,0 +1,8 @@
+c0 # of samps: 552 (540 weighted)
+c0 # of feats: 14 (42 binary)
+c0 # of labls: 2
+c0 parse time: 0.2619
+
+c3 total time: 62.1221
+
+Rules are saved to ../eclat_rules/size/q4_australian_train4.csv_size5.json

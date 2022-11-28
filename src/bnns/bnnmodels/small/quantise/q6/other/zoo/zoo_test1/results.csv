@@ -1,0 +1,2 @@
+epoch,train_loss,val_loss,train_error1,val_error1
+1,tensor(2.9602),tensor(3.1040),tensor(-1400.),tensor(-376.1905)

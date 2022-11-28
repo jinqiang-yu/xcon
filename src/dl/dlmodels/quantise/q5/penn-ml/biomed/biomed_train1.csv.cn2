@@ -1,0 +1,37 @@
+c* cover: 'Observation_number: (5.8..+inf)' => target: 1 
+c* cover: 'Hospital_identification_number_for_blood_sample: (-inf..819.0]' => target: 1 
+c* cover: 'Age_of_patient: (39.2..46.8]' => target: 0 
+c* cover: 'Age_of_patient: (46.8..+inf)' => target: 0 
+c* cover: 'ml: (209.4..+inf)' => target: 0 
+c* cover: 'ml: (-inf..35.6]', 'Observation_number: (3.4..4.6]' => target: 1 
+c* cover: 'Observation_number: (3.4..4.6]' => target: 0 
+c* cover: 'ml: (-inf..35.6]', 'Observation_number: (4.6..5.8]' => target: 1 
+c* cover: 'Observation_number: (4.6..5.8]' => target: 0 
+c* cover: 'ml: (-inf..35.6]', not 'Observation_number: (-inf..2.2]' => target: 1 
+c* cover: 'ml: (-inf..35.6]', not 'Hospital_identification_number_for_blood_sample: (947.0..1124.0]' => target: 1 
+c* cover: 'Hospital_identification_number_for_blood_sample: (819.0..947.0]', not 'Age_of_patient: (26.4..32.8]' => target: 1 
+c* cover: 'ml: (98.7..209.4]' => target: 0 
+c* cover: 'm2: (47.6..71.4]', not 'Hospital_identification_number_for_blood_sample: (819.0..947.0]' => target: 1 
+c* cover: 'Date_that_blood_sample_was_taken: (90078.0..110077.0]', not 'Observation_number: (-inf..2.2]' => target: 1 
+c* cover: 'm3: (9.16..12.42]', not 'Observation_number: (-inf..2.2]' => target: 1 
+c* cover: 'Observation_number: (2.2..3.4]' => target: 0 
+c* cover: 'm4: (75.0..100.0]' => target: 1 
+c* cover: 'Date_that_blood_sample_was_taken: (110077.0..+inf)' => target: 0 
+c* cover: 'Hospital_identification_number_for_blood_sample: (819.0..947.0]', 'Date_that_blood_sample_was_taken: (60079.0..90078.0]' => target: 0 
+c* cover: 'Hospital_identification_number_for_blood_sample: (819.0..947.0]' => target: 1 
+c* cover: 'Date_that_blood_sample_was_taken: (-inf..30078.0]' => target: 0 
+c* cover: 'm2: (23.8..47.6]' => target: 1 
+c* cover: 'm2: (71.4..95.2]', 'Hospital_identification_number_for_blood_sample: (1281.0..+inf)' => target: 1 
+c* cover: 'm2: (71.4..95.2]', 'Age_of_patient: (26.4..32.8]' => target: 1 
+c* cover: not 'ml: (35.6..57.2]' => target: 0 
+c* cover: 'Hospital_identification_number_for_blood_sample: (947.0..1124.0]' => target: 1 
+c* cover: 'Age_of_patient: (-inf..26.4]' => target: 1 
+c* cover: 'Date_that_blood_sample_was_taken: (30078.0..60079.0]' => target: 0 
+c* cover: 'Hospital_identification_number_for_blood_sample: (1124.0..1281.0]' => target: 1 
+c* cover: not 'Age_of_patient: (26.4..32.8]' => target: 1 
+c* cover: 'Date_that_blood_sample_was_taken: (60079.0..90078.0]' => target: 0 
+c* cover: 'Observation_number: (-inf..2.2]' => target: 1 
+c* cover: true => target: 1 
+c* cover size: 34
+c* cover wght: 45
+c* accur: 100.00%

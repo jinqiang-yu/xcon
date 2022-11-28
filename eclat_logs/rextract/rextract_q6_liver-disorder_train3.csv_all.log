@@ -1,0 +1,8 @@
+c0 # of samps: 276 (256 weighted)
+c0 # of feats: 6 (36 binary)
+c0 # of labls: 2
+c0 parse time: 0.2801
+
+c3 total time: 0.3159
+
+Rules are saved to ../eclat_rules/all/q6_liver-disorder_train3.csv.json

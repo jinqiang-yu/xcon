@@ -1,0 +1,8 @@
+c0 # of samps: 272 (268 weighted)
+c0 # of feats: 14 (52 binary)
+c0 # of labls: 2
+c0 parse time: 0.2941
+
+c3 total time: 493.5618
+
+Rules are saved to ../eclat_rules/size/q4_schizo_train4.csv_size5.json

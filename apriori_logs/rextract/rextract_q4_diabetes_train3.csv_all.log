@@ -1,0 +1,8 @@
+c0 # of samps: 614 (532 weighted)
+c0 # of feats: 8 (32 binary)
+c0 # of labls: 2
+c0 parse time: 0.2536
+
+c3 total time: 86.1783
+
+Rules are saved to ../apriori_rules/all/q4_diabetes_train3.csv.json

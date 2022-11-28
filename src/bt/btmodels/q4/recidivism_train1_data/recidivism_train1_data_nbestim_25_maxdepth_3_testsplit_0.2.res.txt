@@ -1,0 +1,2 @@
+recidivism-train1-data.csv & 0.66 & 0.62 &25  &3 & 0.2 \\ 
+ \hline 

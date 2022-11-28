@@ -1,0 +1,8 @@
+c0 # of samps: 11290 (5259 weighted)
+c0 # of feats: 12 (64 binary)
+c0 # of labls: 2
+c0 parse time: 0.3810
+
+c3 total time: 201.7379
+
+Rules are saved to ../eclat_rules/size/q6_adult_train2.csv_size5.json

@@ -1,0 +1,8 @@
+c0 # of samps: 130 (112 weighted)
+c0 # of feats: 9 (33 binary)
+c0 # of labls: 2
+c0 parse time: 0.3020
+
+c3 total time: 0.5142
+
+Rules are saved to ../eclat_rules/size/q4_glass2_train2.csv_size5.json

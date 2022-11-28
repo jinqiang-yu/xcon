@@ -1,0 +1,2 @@
+lending-train1-data.csv & 0.78 & 0.78 &25  &3 & 0.2 \\ 
+ \hline 

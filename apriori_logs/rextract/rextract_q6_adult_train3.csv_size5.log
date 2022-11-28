@@ -1,0 +1,8 @@
+c0 # of samps: 11290 (5294 weighted)
+c0 # of feats: 12 (65 binary)
+c0 # of labls: 2
+c0 parse time: 0.3085
+
+c3 total time: 8108.9900
+
+Rules are saved to ../apriori_rules/size/q6_adult_train3.csv_size5.json

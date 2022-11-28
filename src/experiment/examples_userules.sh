@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# adult
+python ./dl/xdl.py -a use -B --solver glucose3 -l 1 --no-ccheck -x abd -n 20 -M -vv -D ../bench/cv/test/quantise/q6/other/anchor/adult/adult_test1_data.csv -m ./dl/dlmodels/quantise/q6/other/anchor/adult/adult_train1.csv.cn2 -S lin -k ../rules/all/q6_adult_train1.csv.json > ../logs/dl/dl_q6_adult_test1.csv_userules_all.log
+python ./bt/xdual.py -A use -N 20 -M -c -e smt -s z3 -x all -v -i ../bench/cv/test/quantise/q6/other/anchor/adult/adult_test1_data.csv.pkl -k ../rules/all/q6_adult_train1.csv.json ../bench/cv/test/quantise/q6/other/anchor/adult/adult_test1_data.csv ./bt/btmodels/q6/adult_train1_data/adult_train1_data_nbestim_25_maxdepth_3_testsplit_0.2.mod.pkl > ../logs/bt/bt_q6_adult_test1_data.csv_userules_nbestim_25_maxdepth_3_all.log
+python ./bnns/explain.py -a use -v 2 -t abd -m -N 20 --load ./bnns/bnnmodels/medium/quantise/q6/other/anchor/adult/adult_test1/ -k ../rules/all/q6_adult_train1.csv.json > ../logs/bnn/bnn_q6_adult_test1_userules_medium_all.log
+
+# compas
+python ./dl/xdl.py -a use -B --solver glucose3 -l 1 --no-ccheck -x abd -n 20 -M -vv -D ../bench/cv/test/quantise/q6/other/fairml/compas/compas_test1_data.csv -m ./dl/dlmodels/quantise/q6/other/fairml/compas/compas_train1.csv.cn2 -S lin -k ../rules/all/q6_compas_train1.csv.json > ../logs/dl/dl_q6_compas_test1.csv_userules_all.log
+python ./bt/xdual.py -A use -N 20 -M -c -e smt -s z3 -x all -v -i ../bench/cv/test/quantise/q6/other/fairml/compas/compas_test1_data.csv.pkl -k ../rules/all/q6_compas_train1.csv.json ../bench/cv/test/quantise/q6/other/fairml/compas/compas_test1_data.csv ./bt/btmodels/q6/compas_train1_data/compas_train1_data_nbestim_25_maxdepth_3_testsplit_0.2.mod.pkl > ../logs/bt/bt_q6_compas_test1_data.csv_userules_nbestim_25_maxdepth_3_all.log
+python ./bnns/explain.py -a use -v 2 -t abd -m -N 20 --load ./bnns/bnnmodels/large/quantise/q6/other/fairml/compas/compas_test1/ -k ../rules/all/q6_compas_train1.csv.json > ../logs/bnn/bnn_q6_compas_test1_userules_large_all.log
+
+# lending
+python ./dl/xdl.py -a use -B --solver glucose3 -l 1 --no-ccheck -x abd -n 20 -M -vv -D ../bench/cv/test/quantise/q6/other/anchor/lending/lending_test1_data.csv -m ./dl/dlmodels/quantise/q6/other/anchor/lending/lending_train1.csv.cn2 -S lin -k ../rules/all/q6_lending_train1.csv.json > ../logs/dl/dl_q6_lending_test1.csv_userules_all.log
+python ./bt/xdual.py -A use -N 20 -M -c -e smt -s z3 -x all -v -i ../bench/cv/test/quantise/q6/other/anchor/lending/lending_test1_data.csv.pkl -k ../rules/all/q6_lending_train1.csv.json ../bench/cv/test/quantise/q6/other/anchor/lending/lending_test1_data.csv ./bt/btmodels/q6/lending_train1_data/lending_train1_data_nbestim_25_maxdepth_3_testsplit_0.2.mod.pkl > ../logs/bt/bt_q6_lending_test1_data.csv_userules_nbestim_25_maxdepth_3_all.log
+python ./bnns/explain.py -a use -v 2 -t abd -m -N 20 --load ./bnns/bnnmodels/medium/quantise/q6/other/anchor/lending/lending_test1/ -k ../rules/all/q6_lending_train1.csv.json > ../logs/bnn/bnn_q6_lending_test1_userules_medium_all.log
+
+# recidivism
+python ./dl/xdl.py -a use -B --solver glucose3 -l 1 --no-ccheck -x abd -n 20 -M -vv -D ../bench/cv/test/quantise/q6/other/anchor/recidivism/recidivism_test1_data.csv -m ./dl/dlmodels/quantise/q6/other/anchor/recidivism/recidivism_train1.csv.cn2 -S lin -k ../rules/all/q6_recidivism_train1.csv.json > ../logs/dl/dl_q6_recidivism_test1.csv_userules_all.log
+python ./bt/xdual.py -A use -N 20 -M -c -e smt -s z3 -x all -v -i ../bench/cv/test/quantise/q6/other/anchor/recidivism/recidivism_test1_data.csv.pkl -k ../rules/all/q6_recidivism_train1.csv.json ../bench/cv/test/quantise/q6/other/anchor/recidivism/recidivism_test1_data.csv ./bt/btmodels/q6/recidivism_train1_data/recidivism_train1_data_nbestim_25_maxdepth_3_testsplit_0.2.mod.pkl > ../logs/bt/bt_q6_recidivism_test1_data.csv_userules_nbestim_25_maxdepth_3_all.log
+python ./bnns/explain.py -a use -v 2 -t abd -m -N 20 --load ./bnns/bnnmodels/medium/quantise/q6/other/anchor/recidivism/recidivism_test1/ -k ../rules/all/q6_recidivism_train1.csv.json > ../logs/bnn/bnn_q6_recidivism_test1_userules_medium_all.log

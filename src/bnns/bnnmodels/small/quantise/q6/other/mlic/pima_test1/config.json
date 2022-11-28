@@ -1,0 +1,44 @@
+{
+    "data": {
+        "data_dir": "../bench/complete/quantise/q6/other/mlic/",
+        "data_file": "pima_data.csv",
+        "dataset": "mlic",
+        "donot_convert_data": false,
+        "input_size": 8,
+        "num_classes": 2,
+        "test_dir": "../bench/cv/test/quantise/q6/other/mlic/",
+        "test_file": "pima_test1_data.csv",
+        "test_size": 0.2,
+        "train_dir": "../bench/cv/train/quantise/q6/other/mlic/",
+        "train_file": "pima_train1_data.csv",
+        "use_one_hot": true
+    },
+    "id": "1",
+    "manual_seed": 0,
+    "model": {
+        "layers": [
+            10,
+            5,
+            5,
+            2
+        ],
+        "name": "mlp_binary",
+        "type": "cpu",
+        "type_model": "torch.FloatTensor"
+    },
+    "name": "mlic",
+    "save_dir": "./bnns/bnnmodels/small/quantise/q6/other/mlic/pima_test1/",
+    "train": {
+        "batch_size": 64,
+        "epochs": 50,
+        "gpus": -1,
+        "loss": "CrossEntropyLoss",
+        "lr": 0.025,
+        "momentum": 0.9,
+        "optimizer": "Adam",
+        "print_freq": 10,
+        "small_weight": 0.01,
+        "weight_decay": 0.0001,
+        "workers": 1
+    }
+}

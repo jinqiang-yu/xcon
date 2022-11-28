@@ -1,0 +1,8 @@
+c0 # of samps: 242 (239 weighted)
+c0 # of feats: 13 (52 binary)
+c0 # of labls: 2
+c0 parse time: 0.2321
+
+c3 total time: 424.0448
+
+Rules are saved to ../apriori_rules/size/q6_cleve_train3.csv_size5.json

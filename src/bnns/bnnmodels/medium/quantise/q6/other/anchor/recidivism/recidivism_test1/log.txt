@@ -1,0 +1,786 @@
+2022-01-19 14:38:48 - INFO - saving to ./results/medium/quantise/q6/other/anchor/recidivism/recidivism_test1/
+2022-01-19 14:38:48 - DEBUG - run arguments: Namespace(config='./configs/config_medium.json', data='../../paper_bench/complete/quantise/q6/other/anchor/recidivism/recidivism_data.csv', encode=None, id=0, load=None, neighprec=-1, results='./results/medium/quantise/q6/other/anchor/recidivism/recidivism_test1/', test='../../paper_bench/cv/test/quantise/q6/other/anchor/recidivism/recidivism_test1_data.csv', train='../../paper_bench/cv/train/quantise/q6/other/anchor/recidivism/recidivism_train1_data.csv')
+2022-01-19 14:38:48 - INFO - creating model mlp_binary
+2022-01-19 14:38:48 - INFO - created model with configuration: {'name': 'mlp_binary', 'type': 'cpu', 'type_model': 'torch.FloatTensor', 'layers': [32, 16, 8, 2]}
+2022-01-19 14:38:48 - INFO - number of parameters: 2074
+2022-01-19 14:38:48 - INFO - training regime: {0: {'optimizer': 'Adam', 'lr': 0.025, 'betas': (0.9, 0.999)}, 20: {'lr': 0.0025}, 50: {'lr': 0.00025}, 75: {'lr': 2.5e-05}}
+2022-01-19 14:38:48 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:48 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:48 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][0/80]	Time 0.199 (0.199)	Data 0.192 (0.192)	Loss 1.9983 (1.9983)	Prec@1 56.250 (56.250)	
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.6927 (1.2733)	Prec@1 51.562 (52.131)	
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.9227 (1.0553)	Prec@1 39.062 (50.446)	
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6922 (0.9984)	Prec@1 53.125 (51.109)	
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6904 (0.9714)	Prec@1 54.688 (50.838)	
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 1.2688 (0.9612)	Prec@1 43.750 (50.919)	
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 1.0947 (0.9751)	Prec@1 51.562 (50.973)	
+2022-01-19 14:38:48 - INFO - TRAINING - Epoch: [0][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.6942 (0.9500)	Prec@1 46.875 (49.824)	
+2022-01-19 14:38:49 - INFO - EVALUATING - Epoch: [0][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 0.7276 (0.7276)	Prec@1 57.812 (57.812)	
+2022-01-19 14:38:49 - INFO - EVALUATING - Epoch: [0][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.7341 (0.7564)	Prec@1 57.812 (55.114)	
+2022-01-19 14:38:49 - INFO - 
+ Epoch: 1	Training Loss 0.9385 	Training Prec@1 49.734 	Validation Loss 0.7456 	Validation Prec@1 56.309 	
+2022-01-19 14:38:49 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:49 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:49 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][0/80]	Time 0.194 (0.194)	Data 0.190 (0.190)	Loss 0.7479 (0.7479)	Prec@1 56.250 (56.250)	
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 0.6963 (0.9763)	Prec@1 46.875 (48.011)	
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6915 (0.9641)	Prec@1 57.812 (50.372)	
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6938 (0.9114)	Prec@1 50.000 (51.109)	
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6941 (0.9130)	Prec@1 46.875 (50.724)	
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][50/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.8754 (0.9172)	Prec@1 62.500 (50.858)	
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.8557 (0.9322)	Prec@1 64.062 (51.025)	
+2022-01-19 14:38:49 - INFO - TRAINING - Epoch: [1][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 1.0706 (0.9385)	Prec@1 53.125 (51.166)	
+2022-01-19 14:38:49 - INFO - EVALUATING - Epoch: [1][0/20]	Time 0.195 (0.195)	Data 0.193 (0.193)	Loss 0.6879 (0.6879)	Prec@1 57.812 (57.812)	
+2022-01-19 14:38:49 - INFO - EVALUATING - Epoch: [1][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.7011 (0.6920)	Prec@1 40.625 (52.415)	
+2022-01-19 14:38:49 - INFO - 
+ Epoch: 2	Training Loss 0.9215 	Training Prec@1 51.232 	Validation Loss 0.6938 	Validation Prec@1 50.079 	
+2022-01-19 14:38:49 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:49 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:49 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][0/80]	Time 0.244 (0.244)	Data 0.240 (0.240)	Loss 0.6915 (0.6915)	Prec@1 53.125 (53.125)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][10/80]	Time 0.005 (0.026)	Data 0.002 (0.024)	Loss 0.7017 (1.0363)	Prec@1 43.750 (50.426)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][20/80]	Time 0.004 (0.016)	Data 0.002 (0.013)	Loss 0.7132 (0.9114)	Prec@1 59.375 (51.860)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][30/80]	Time 0.004 (0.012)	Data 0.002 (0.010)	Loss 0.8505 (0.8416)	Prec@1 45.312 (52.268)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 1.4748 (0.8670)	Prec@1 68.750 (53.316)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6959 (0.8456)	Prec@1 35.938 (52.206)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6986 (0.8235)	Prec@1 43.750 (51.819)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [2][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.9728 (0.8113)	Prec@1 57.812 (51.629)	
+2022-01-19 14:38:50 - INFO - EVALUATING - Epoch: [2][0/20]	Time 0.194 (0.194)	Data 0.192 (0.192)	Loss 0.7508 (0.7508)	Prec@1 68.750 (68.750)	
+2022-01-19 14:38:50 - INFO - EVALUATING - Epoch: [2][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.9325 (0.9645)	Prec@1 59.375 (57.955)	
+2022-01-19 14:38:50 - INFO - 
+ Epoch: 3	Training Loss 0.8123 	Training Prec@1 51.745 	Validation Loss 0.9831 	Validation Prec@1 56.940 	
+2022-01-19 14:38:50 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:50 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:50 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [3][0/80]	Time 0.193 (0.193)	Data 0.189 (0.189)	Loss 0.8170 (0.8170)	Prec@1 65.625 (65.625)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [3][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 0.6947 (0.8653)	Prec@1 32.812 (52.557)	
+2022-01-19 14:38:50 - INFO - TRAINING - Epoch: [3][20/80]	Time 0.005 (0.013)	Data 0.002 (0.011)	Loss 0.6942 (0.9119)	Prec@1 48.438 (52.455)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [3][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.8067 (0.8907)	Prec@1 53.125 (54.234)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [3][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 1.0945 (0.8652)	Prec@1 51.562 (53.811)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [3][50/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.6948 (0.8391)	Prec@1 45.312 (53.002)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [3][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6941 (0.8526)	Prec@1 48.438 (53.048)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [3][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.6877 (0.8411)	Prec@1 56.250 (52.729)	
+2022-01-19 14:38:51 - INFO - EVALUATING - Epoch: [3][0/20]	Time 0.190 (0.190)	Data 0.188 (0.188)	Loss 1.0062 (1.0062)	Prec@1 31.250 (31.250)	
+2022-01-19 14:38:51 - INFO - EVALUATING - Epoch: [3][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.9302 (0.9274)	Prec@1 37.500 (38.778)	
+2022-01-19 14:38:51 - INFO - 
+ Epoch: 4	Training Loss 0.8436 	Training Prec@1 53.421 	Validation Loss 0.9057 	Validation Prec@1 40.773 	
+2022-01-19 14:38:51 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:51 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:51 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [4][0/80]	Time 0.241 (0.241)	Data 0.237 (0.237)	Loss 0.9588 (0.9588)	Prec@1 35.938 (35.938)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [4][10/80]	Time 0.004 (0.026)	Data 0.002 (0.023)	Loss 0.6928 (0.8270)	Prec@1 51.562 (50.568)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [4][20/80]	Time 0.004 (0.015)	Data 0.002 (0.013)	Loss 0.7009 (0.8698)	Prec@1 43.750 (53.795)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [4][30/80]	Time 0.004 (0.012)	Data 0.002 (0.009)	Loss 0.8173 (0.8241)	Prec@1 65.625 (52.974)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [4][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.9082 (0.8218)	Prec@1 60.938 (52.706)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [4][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6962 (0.8075)	Prec@1 39.062 (52.390)	
+2022-01-19 14:38:51 - INFO - TRAINING - Epoch: [4][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6932 (0.8125)	Prec@1 50.000 (52.843)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [4][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6558 (0.8083)	Prec@1 65.625 (52.861)	
+2022-01-19 14:38:52 - INFO - EVALUATING - Epoch: [4][0/20]	Time 0.240 (0.240)	Data 0.238 (0.238)	Loss 1.3895 (1.3895)	Prec@1 59.375 (59.375)	
+2022-01-19 14:38:52 - INFO - EVALUATING - Epoch: [4][10/20]	Time 0.003 (0.024)	Data 0.002 (0.023)	Loss 0.9252 (1.2338)	Prec@1 67.188 (61.364)	
+2022-01-19 14:38:52 - INFO - 
+ Epoch: 5	Training Loss 0.8357 	Training Prec@1 53.421 	Validation Loss 1.1726 	Validation Prec@1 59.858 	
+2022-01-19 14:38:52 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:52 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:52 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][0/80]	Time 0.196 (0.196)	Data 0.192 (0.192)	Loss 1.0024 (1.0024)	Prec@1 62.500 (62.500)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.6955 (1.0137)	Prec@1 48.438 (50.284)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 1.1397 (0.8879)	Prec@1 48.438 (53.199)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6966 (0.8568)	Prec@1 48.438 (51.714)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6876 (0.8182)	Prec@1 56.250 (52.325)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7116 (0.8029)	Prec@1 39.062 (52.298)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.9955 (0.8243)	Prec@1 50.000 (52.561)	
+2022-01-19 14:38:52 - INFO - TRAINING - Epoch: [5][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6933 (0.8168)	Prec@1 50.000 (52.641)	
+2022-01-19 14:38:53 - INFO - EVALUATING - Epoch: [5][0/20]	Time 0.187 (0.187)	Data 0.185 (0.185)	Loss 1.2943 (1.2943)	Prec@1 32.812 (32.812)	
+2022-01-19 14:38:53 - INFO - EVALUATING - Epoch: [5][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 1.7194 (1.4146)	Prec@1 35.938 (36.506)	
+2022-01-19 14:38:53 - INFO - 
+ Epoch: 6	Training Loss 0.8277 	Training Prec@1 52.909 	Validation Loss 1.3571 	Validation Prec@1 39.669 	
+2022-01-19 14:38:53 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:53 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:53 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][0/80]	Time 0.237 (0.237)	Data 0.233 (0.233)	Loss 1.5629 (1.5629)	Prec@1 40.625 (40.625)	
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][10/80]	Time 0.004 (0.025)	Data 0.002 (0.023)	Loss 0.9461 (1.2151)	Prec@1 60.938 (57.244)	
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][20/80]	Time 0.004 (0.015)	Data 0.002 (0.013)	Loss 0.8357 (1.1296)	Prec@1 46.875 (54.985)	
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][30/80]	Time 0.004 (0.012)	Data 0.002 (0.009)	Loss 1.1922 (1.0768)	Prec@1 54.688 (54.839)	
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][40/80]	Time 0.004 (0.010)	Data 0.002 (0.007)	Loss 0.6994 (1.0085)	Prec@1 43.750 (54.611)	
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.7023 (0.9634)	Prec@1 42.188 (54.596)	
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7176 (0.9402)	Prec@1 60.938 (54.688)	
+2022-01-19 14:38:53 - INFO - TRAINING - Epoch: [6][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6866 (0.9148)	Prec@1 57.812 (54.159)	
+2022-01-19 14:38:53 - INFO - EVALUATING - Epoch: [6][0/20]	Time 0.239 (0.239)	Data 0.237 (0.237)	Loss 1.3066 (1.3066)	Prec@1 45.312 (45.312)	
+2022-01-19 14:38:53 - INFO - EVALUATING - Epoch: [6][10/20]	Time 0.003 (0.024)	Data 0.002 (0.023)	Loss 0.7834 (1.0852)	Prec@1 68.750 (54.972)	
+2022-01-19 14:38:54 - INFO - 
+ Epoch: 7	Training Loss 0.9067 	Training Prec@1 54.565 	Validation Loss 1.0708 	Validation Prec@1 55.521 	
+2022-01-19 14:38:54 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:54 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:54 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][0/80]	Time 0.197 (0.197)	Data 0.193 (0.193)	Loss 0.9140 (0.9140)	Prec@1 62.500 (62.500)	
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.7171 (0.9069)	Prec@1 35.938 (55.398)	
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 1.2766 (0.8979)	Prec@1 42.188 (55.134)	
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6922 (0.9561)	Prec@1 53.125 (53.377)	
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.7004 (0.9010)	Prec@1 48.438 (54.154)	
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.9122 (0.8812)	Prec@1 60.938 (54.657)	
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6939 (0.8575)	Prec@1 48.438 (53.791)	
+2022-01-19 14:38:54 - INFO - TRAINING - Epoch: [7][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.6530 (0.8418)	Prec@1 73.438 (54.181)	
+2022-01-19 14:38:54 - INFO - EVALUATING - Epoch: [7][0/20]	Time 0.240 (0.240)	Data 0.238 (0.238)	Loss 0.9942 (0.9942)	Prec@1 57.812 (57.812)	
+2022-01-19 14:38:54 - INFO - EVALUATING - Epoch: [7][10/20]	Time 0.003 (0.024)	Data 0.002 (0.023)	Loss 0.6315 (0.9544)	Prec@1 75.000 (59.375)	
+2022-01-19 14:38:54 - INFO - 
+ Epoch: 8	Training Loss 0.8399 	Training Prec@1 53.934 	Validation Loss 0.9433 	Validation Prec@1 59.858 	
+2022-01-19 14:38:54 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:54 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:54 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][0/80]	Time 0.203 (0.203)	Data 0.199 (0.199)	Loss 0.6947 (0.6947)	Prec@1 71.875 (71.875)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 1.0339 (0.8170)	Prec@1 54.688 (52.131)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.8389 (0.8450)	Prec@1 64.062 (53.199)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.9917 (0.8460)	Prec@1 67.188 (54.032)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6918 (0.8245)	Prec@1 54.688 (53.887)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7612 (0.8168)	Prec@1 54.688 (54.442)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6959 (0.8113)	Prec@1 46.875 (54.508)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [8][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7043 (0.8025)	Prec@1 40.625 (53.917)	
+2022-01-19 14:38:55 - INFO - EVALUATING - Epoch: [8][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 0.7031 (0.7031)	Prec@1 42.188 (42.188)	
+2022-01-19 14:38:55 - INFO - EVALUATING - Epoch: [8][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.6845 (0.6972)	Prec@1 59.375 (47.585)	
+2022-01-19 14:38:55 - INFO - 
+ Epoch: 9	Training Loss 0.8261 	Training Prec@1 54.250 	Validation Loss 0.6947 	Validation Prec@1 49.921 	
+2022-01-19 14:38:55 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:55 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:55 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [9][0/80]	Time 0.244 (0.244)	Data 0.241 (0.241)	Loss 0.6997 (0.6997)	Prec@1 45.312 (45.312)	
+2022-01-19 14:38:55 - INFO - TRAINING - Epoch: [9][10/80]	Time 0.004 (0.026)	Data 0.002 (0.024)	Loss 0.8118 (1.0681)	Prec@1 65.625 (55.540)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [9][20/80]	Time 0.004 (0.015)	Data 0.002 (0.013)	Loss 0.6954 (0.8913)	Prec@1 46.875 (51.637)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [9][30/80]	Time 0.004 (0.012)	Data 0.002 (0.010)	Loss 0.6927 (1.0181)	Prec@1 60.938 (52.268)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [9][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.9061 (1.0398)	Prec@1 60.938 (53.354)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [9][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.9090 (1.0408)	Prec@1 57.812 (52.911)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [9][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.8323 (0.9935)	Prec@1 64.062 (52.869)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [9][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.9336 (0.9655)	Prec@1 42.188 (52.399)	
+2022-01-19 14:38:56 - INFO - EVALUATING - Epoch: [9][0/20]	Time 0.194 (0.194)	Data 0.192 (0.192)	Loss 0.5851 (0.5851)	Prec@1 73.438 (73.438)	
+2022-01-19 14:38:56 - INFO - EVALUATING - Epoch: [9][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.7914 (0.6885)	Prec@1 54.688 (63.494)	
+2022-01-19 14:38:56 - INFO - 
+ Epoch: 10	Training Loss 0.9534 	Training Prec@1 52.692 	Validation Loss 0.7184 	Validation Prec@1 60.726 	
+2022-01-19 14:38:56 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:56 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:56 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [10][0/80]	Time 0.204 (0.204)	Data 0.200 (0.200)	Loss 0.7729 (0.7729)	Prec@1 54.688 (54.688)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [10][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 1.0410 (0.8939)	Prec@1 54.688 (53.125)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [10][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.6949 (0.9085)	Prec@1 48.438 (51.711)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [10][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 1.2387 (0.8922)	Prec@1 53.125 (51.966)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [10][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.7035 (0.8858)	Prec@1 46.875 (52.287)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [10][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7012 (0.8891)	Prec@1 45.312 (52.053)	
+2022-01-19 14:38:56 - INFO - TRAINING - Epoch: [10][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.8953 (0.9662)	Prec@1 56.250 (52.075)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [10][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 1.3771 (0.9576)	Prec@1 43.750 (52.487)	
+2022-01-19 14:38:57 - INFO - EVALUATING - Epoch: [10][0/20]	Time 0.194 (0.194)	Data 0.192 (0.192)	Loss 0.7852 (0.7852)	Prec@1 68.750 (68.750)	
+2022-01-19 14:38:57 - INFO - EVALUATING - Epoch: [10][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 1.0489 (0.9497)	Prec@1 56.250 (60.653)	
+2022-01-19 14:38:57 - INFO - 
+ Epoch: 11	Training Loss 0.9398 	Training Prec@1 52.080 	Validation Loss 0.9721 	Validation Prec@1 59.700 	
+2022-01-19 14:38:57 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:57 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:57 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][0/80]	Time 0.204 (0.204)	Data 0.200 (0.200)	Loss 0.7562 (0.7562)	Prec@1 70.312 (70.312)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.6638 (0.9163)	Prec@1 53.125 (56.534)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.8078 (0.8703)	Prec@1 59.375 (58.185)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.6871 (0.8512)	Prec@1 56.250 (57.006)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6934 (0.8633)	Prec@1 51.562 (56.593)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 1.0263 (0.9110)	Prec@1 60.938 (55.178)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][60/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.6866 (0.8837)	Prec@1 60.938 (55.072)	
+2022-01-19 14:38:57 - INFO - TRAINING - Epoch: [11][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6615 (0.8739)	Prec@1 53.125 (54.886)	
+2022-01-19 14:38:58 - INFO - EVALUATING - Epoch: [11][0/20]	Time 0.194 (0.194)	Data 0.193 (0.193)	Loss 0.9686 (0.9686)	Prec@1 59.375 (59.375)	
+2022-01-19 14:38:58 - INFO - EVALUATING - Epoch: [11][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 1.3593 (1.1149)	Prec@1 40.625 (52.273)	
+2022-01-19 14:38:58 - INFO - 
+ Epoch: 12	Training Loss 0.9006 	Training Prec@1 54.861 	Validation Loss 1.1564 	Validation Prec@1 50.315 	
+2022-01-19 14:38:58 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:58 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:58 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][0/80]	Time 0.240 (0.240)	Data 0.236 (0.236)	Loss 1.2316 (1.2316)	Prec@1 46.875 (46.875)	
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][10/80]	Time 0.004 (0.026)	Data 0.002 (0.023)	Loss 0.6934 (1.2141)	Prec@1 48.438 (52.415)	
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][20/80]	Time 0.004 (0.015)	Data 0.002 (0.013)	Loss 0.6720 (0.9869)	Prec@1 64.062 (52.530)	
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][30/80]	Time 0.004 (0.012)	Data 0.002 (0.009)	Loss 0.6912 (0.8963)	Prec@1 67.188 (51.562)	
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 1.7875 (0.9709)	Prec@1 31.250 (51.524)	
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][50/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.7016 (0.9336)	Prec@1 46.875 (52.328)	
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.8325 (0.9080)	Prec@1 42.188 (52.100)	
+2022-01-19 14:38:58 - INFO - TRAINING - Epoch: [12][70/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 1.3245 (0.9025)	Prec@1 43.750 (52.179)	
+2022-01-19 14:38:58 - INFO - EVALUATING - Epoch: [12][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 0.7256 (0.7256)	Prec@1 71.875 (71.875)	
+2022-01-19 14:38:58 - INFO - EVALUATING - Epoch: [12][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.7152 (0.8836)	Prec@1 70.312 (63.636)	
+2022-01-19 14:38:58 - INFO - 
+ Epoch: 13	Training Loss 0.8933 	Training Prec@1 52.455 	Validation Loss 0.9354 	Validation Prec@1 60.883 	
+2022-01-19 14:38:59 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:59 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:59 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][0/80]	Time 0.198 (0.198)	Data 0.194 (0.194)	Loss 0.7471 (0.7471)	Prec@1 70.312 (70.312)	
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 1.0178 (0.9018)	Prec@1 54.688 (56.392)	
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 1.3389 (0.9928)	Prec@1 53.125 (52.827)	
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 1.2856 (0.9765)	Prec@1 37.500 (55.292)	
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 1.2437 (0.9687)	Prec@1 42.188 (53.963)	
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 1.7328 (0.9602)	Prec@1 50.000 (53.094)	
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 1.2143 (0.9335)	Prec@1 43.750 (53.227)	
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [13][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7099 (0.9158)	Prec@1 59.375 (53.433)	
+2022-01-19 14:38:59 - INFO - EVALUATING - Epoch: [13][0/20]	Time 0.195 (0.195)	Data 0.193 (0.193)	Loss 0.7043 (0.7043)	Prec@1 42.188 (42.188)	
+2022-01-19 14:38:59 - INFO - EVALUATING - Epoch: [13][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6837 (0.6978)	Prec@1 59.375 (47.585)	
+2022-01-19 14:38:59 - INFO - 
+ Epoch: 14	Training Loss 0.9253 	Training Prec@1 53.362 	Validation Loss 0.6950 	Validation Prec@1 49.921 	
+2022-01-19 14:38:59 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:38:59 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:38:59 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:38:59 - INFO - TRAINING - Epoch: [14][0/80]	Time 0.197 (0.197)	Data 0.193 (0.193)	Loss 0.6837 (0.6837)	Prec@1 59.375 (59.375)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [14][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.7639 (0.9775)	Prec@1 56.250 (51.136)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [14][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.7353 (0.8616)	Prec@1 56.250 (53.199)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [14][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 2.1214 (0.9431)	Prec@1 42.188 (52.369)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [14][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6862 (0.9107)	Prec@1 56.250 (52.591)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [14][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6916 (0.9175)	Prec@1 53.125 (53.186)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [14][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.9249 (0.9191)	Prec@1 57.812 (53.151)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [14][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 1.1089 (0.9168)	Prec@1 53.125 (53.279)	
+2022-01-19 14:39:00 - INFO - EVALUATING - Epoch: [14][0/20]	Time 0.199 (0.199)	Data 0.197 (0.197)	Loss 0.8932 (0.8932)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:00 - INFO - EVALUATING - Epoch: [14][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 1.1907 (0.9866)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:00 - INFO - 
+ Epoch: 15	Training Loss 0.9195 	Training Prec@1 53.224 	Validation Loss 1.0271 	Validation Prec@1 50.079 	
+2022-01-19 14:39:00 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:00 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:00 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [15][0/80]	Time 0.203 (0.203)	Data 0.200 (0.200)	Loss 0.8391 (0.8391)	Prec@1 60.938 (60.938)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [15][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.8813 (1.0492)	Prec@1 57.812 (60.227)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [15][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.6776 (1.0092)	Prec@1 59.375 (55.878)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [15][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 1.0139 (1.0074)	Prec@1 57.812 (55.393)	
+2022-01-19 14:39:00 - INFO - TRAINING - Epoch: [15][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.8284 (0.9996)	Prec@1 64.062 (55.221)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [15][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.8905 (0.9520)	Prec@1 57.812 (55.025)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [15][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7271 (0.9172)	Prec@1 42.188 (55.046)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [15][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.9544 (0.9088)	Prec@1 45.312 (54.093)	
+2022-01-19 14:39:01 - INFO - EVALUATING - Epoch: [15][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 1.0728 (1.0728)	Prec@1 68.750 (68.750)	
+2022-01-19 14:39:01 - INFO - EVALUATING - Epoch: [15][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 1.5125 (1.3425)	Prec@1 57.812 (62.500)	
+2022-01-19 14:39:01 - INFO - 
+ Epoch: 16	Training Loss 0.9044 	Training Prec@1 54.052 	Validation Loss 1.4702 	Validation Prec@1 59.543 	
+2022-01-19 14:39:01 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:01 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:01 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][0/80]	Time 0.208 (0.208)	Data 0.204 (0.204)	Loss 1.5876 (1.5876)	Prec@1 56.250 (56.250)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][10/80]	Time 0.005 (0.023)	Data 0.002 (0.020)	Loss 1.4982 (1.0486)	Prec@1 57.812 (54.545)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][20/80]	Time 0.004 (0.014)	Data 0.002 (0.012)	Loss 0.7424 (0.9503)	Prec@1 43.750 (50.000)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 1.2940 (0.9319)	Prec@1 50.000 (51.562)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.7458 (0.9040)	Prec@1 42.188 (52.477)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][50/80]	Time 0.005 (0.008)	Data 0.002 (0.006)	Loss 0.7069 (0.8953)	Prec@1 51.562 (52.727)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][60/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.7225 (0.8731)	Prec@1 59.375 (53.407)	
+2022-01-19 14:39:01 - INFO - TRAINING - Epoch: [16][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7171 (0.8682)	Prec@1 46.875 (53.235)	
+2022-01-19 14:39:02 - INFO - EVALUATING - Epoch: [16][0/20]	Time 0.242 (0.242)	Data 0.240 (0.240)	Loss 0.7194 (0.7194)	Prec@1 42.188 (42.188)	
+2022-01-19 14:39:02 - INFO - EVALUATING - Epoch: [16][10/20]	Time 0.003 (0.025)	Data 0.002 (0.024)	Loss 0.6777 (0.7063)	Prec@1 59.375 (47.585)	
+2022-01-19 14:39:02 - INFO - 
+ Epoch: 17	Training Loss 0.8612 	Training Prec@1 53.855 	Validation Loss 0.7007 	Validation Prec@1 49.921 	
+2022-01-19 14:39:02 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:02 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:02 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][0/80]	Time 0.201 (0.201)	Data 0.197 (0.197)	Loss 0.6967 (0.6967)	Prec@1 51.562 (51.562)	
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 1.0285 (0.8795)	Prec@1 50.000 (57.386)	
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 1.2566 (0.8751)	Prec@1 35.938 (54.092)	
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.9908 (0.9275)	Prec@1 53.125 (53.024)	
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6813 (0.8920)	Prec@1 57.812 (52.896)	
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 1.0373 (0.8708)	Prec@1 46.875 (53.554)	
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7022 (0.8772)	Prec@1 45.312 (53.253)	
+2022-01-19 14:39:02 - INFO - TRAINING - Epoch: [17][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.9946 (0.8630)	Prec@1 56.250 (52.795)	
+2022-01-19 14:39:03 - INFO - EVALUATING - Epoch: [17][0/20]	Time 0.241 (0.241)	Data 0.239 (0.239)	Loss 0.8374 (0.8374)	Prec@1 48.438 (48.438)	
+2022-01-19 14:39:03 - INFO - EVALUATING - Epoch: [17][10/20]	Time 0.003 (0.025)	Data 0.002 (0.024)	Loss 0.6916 (0.7940)	Prec@1 62.500 (52.557)	
+2022-01-19 14:39:03 - INFO - 
+ Epoch: 18	Training Loss 0.8484 	Training Prec@1 52.771 	Validation Loss 0.7754 	Validation Prec@1 54.338 	
+2022-01-19 14:39:03 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:03 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:03 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][0/80]	Time 0.241 (0.241)	Data 0.237 (0.237)	Loss 0.8204 (0.8204)	Prec@1 50.000 (50.000)	
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][10/80]	Time 0.004 (0.026)	Data 0.002 (0.023)	Loss 0.9885 (0.8865)	Prec@1 46.875 (53.551)	
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][20/80]	Time 0.006 (0.016)	Data 0.003 (0.013)	Loss 0.6834 (0.9838)	Prec@1 60.938 (53.497)	
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][30/80]	Time 0.005 (0.012)	Data 0.002 (0.010)	Loss 0.7082 (0.9184)	Prec@1 43.750 (53.175)	
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 1.3541 (0.9241)	Prec@1 43.750 (52.058)	
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][50/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.7302 (0.9486)	Prec@1 70.312 (52.022)	
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][60/80]	Time 0.005 (0.008)	Data 0.002 (0.006)	Loss 1.2194 (0.9362)	Prec@1 57.812 (51.998)	
+2022-01-19 14:39:03 - INFO - TRAINING - Epoch: [18][70/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.7040 (0.9282)	Prec@1 48.438 (51.408)	
+2022-01-19 14:39:03 - INFO - EVALUATING - Epoch: [18][0/20]	Time 0.190 (0.190)	Data 0.188 (0.188)	Loss 0.8524 (0.8524)	Prec@1 54.688 (54.688)	
+2022-01-19 14:39:03 - INFO - EVALUATING - Epoch: [18][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.8399 (0.8262)	Prec@1 60.938 (59.517)	
+2022-01-19 14:39:03 - INFO - 
+ Epoch: 19	Training Loss 0.9416 	Training Prec@1 51.627 	Validation Loss 0.8678 	Validation Prec@1 58.754 	
+2022-01-19 14:39:03 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:03 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:03 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][0/80]	Time 0.245 (0.245)	Data 0.241 (0.241)	Loss 0.9242 (0.9242)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][10/80]	Time 0.004 (0.026)	Data 0.002 (0.024)	Loss 1.1425 (1.1331)	Prec@1 37.500 (54.403)	
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][20/80]	Time 0.004 (0.016)	Data 0.002 (0.013)	Loss 0.7419 (0.9595)	Prec@1 70.312 (54.911)	
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][30/80]	Time 0.004 (0.012)	Data 0.002 (0.010)	Loss 0.6928 (0.8874)	Prec@1 51.562 (53.730)	
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.7016 (0.8702)	Prec@1 60.938 (53.963)	
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.7874 (0.8548)	Prec@1 64.062 (53.983)	
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6956 (0.8443)	Prec@1 48.438 (53.919)	
+2022-01-19 14:39:04 - INFO - TRAINING - Epoch: [19][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6976 (0.8239)	Prec@1 46.875 (53.873)	
+2022-01-19 14:39:04 - INFO - EVALUATING - Epoch: [19][0/20]	Time 0.236 (0.236)	Data 0.234 (0.234)	Loss 0.6848 (0.6848)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:04 - INFO - EVALUATING - Epoch: [19][10/20]	Time 0.003 (0.024)	Data 0.002 (0.023)	Loss 0.7082 (0.6922)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:04 - INFO - 
+ Epoch: 20	Training Loss 0.8233 	Training Prec@1 53.855 	Validation Loss 0.6953 	Validation Prec@1 50.079 	
+2022-01-19 14:39:04 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:04 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:04 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:04 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][0/80]	Time 0.199 (0.199)	Data 0.195 (0.195)	Loss 0.6891 (0.6891)	Prec@1 54.688 (54.688)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.7046 (0.7435)	Prec@1 40.625 (52.557)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.7818 (0.7463)	Prec@1 40.625 (50.595)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.6338 (0.7322)	Prec@1 64.062 (52.621)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.8965 (0.7314)	Prec@1 43.750 (53.430)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7051 (0.7287)	Prec@1 60.938 (54.688)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7076 (0.7277)	Prec@1 31.250 (53.023)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [20][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6897 (0.7379)	Prec@1 57.812 (53.257)	
+2022-01-19 14:39:05 - INFO - EVALUATING - Epoch: [20][0/20]	Time 0.199 (0.199)	Data 0.197 (0.197)	Loss 0.6918 (0.6918)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:05 - INFO - EVALUATING - Epoch: [20][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.6949 (0.6927)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:05 - INFO - 
+ Epoch: 21	Training Loss 0.7333 	Training Prec@1 52.771 	Validation Loss 0.6932 	Validation Prec@1 50.079 	
+2022-01-19 14:39:05 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:05 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:05 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:05 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [21][0/80]	Time 0.242 (0.242)	Data 0.238 (0.238)	Loss 0.6943 (0.6943)	Prec@1 43.750 (43.750)	
+2022-01-19 14:39:05 - INFO - TRAINING - Epoch: [21][10/80]	Time 0.004 (0.026)	Data 0.002 (0.023)	Loss 0.7035 (0.7618)	Prec@1 60.938 (57.670)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [21][20/80]	Time 0.004 (0.015)	Data 0.002 (0.013)	Loss 0.7180 (0.7352)	Prec@1 59.375 (53.720)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [21][30/80]	Time 0.004 (0.012)	Data 0.002 (0.009)	Loss 0.7242 (0.7655)	Prec@1 50.000 (54.536)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [21][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6924 (0.7484)	Prec@1 53.125 (54.840)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [21][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6892 (0.7398)	Prec@1 62.500 (54.197)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [21][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6939 (0.7346)	Prec@1 48.438 (54.483)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [21][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.8611 (0.7361)	Prec@1 45.312 (54.886)	
+2022-01-19 14:39:06 - INFO - EVALUATING - Epoch: [21][0/20]	Time 0.240 (0.240)	Data 0.238 (0.238)	Loss 0.6861 (0.6861)	Prec@1 62.500 (62.500)	
+2022-01-19 14:39:06 - INFO - EVALUATING - Epoch: [21][10/20]	Time 0.003 (0.025)	Data 0.002 (0.023)	Loss 0.8036 (0.7173)	Prec@1 50.000 (59.091)	
+2022-01-19 14:39:06 - INFO - 
+ Epoch: 22	Training Loss 0.7316 	Training Prec@1 54.467 	Validation Loss 0.7473 	Validation Prec@1 55.994 	
+2022-01-19 14:39:06 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:06 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:06 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:06 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [22][0/80]	Time 0.202 (0.202)	Data 0.198 (0.198)	Loss 0.7135 (0.7135)	Prec@1 59.375 (59.375)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [22][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.6959 (0.7105)	Prec@1 46.875 (53.835)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [22][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.8393 (0.7464)	Prec@1 46.875 (55.283)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [22][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.8037 (0.7383)	Prec@1 65.625 (53.579)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [22][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6879 (0.7407)	Prec@1 57.812 (54.459)	
+2022-01-19 14:39:06 - INFO - TRAINING - Epoch: [22][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.9080 (0.7383)	Prec@1 54.688 (53.983)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [22][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6937 (0.7391)	Prec@1 50.000 (54.175)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [22][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6909 (0.7380)	Prec@1 54.688 (54.225)	
+2022-01-19 14:39:07 - INFO - EVALUATING - Epoch: [22][0/20]	Time 0.213 (0.213)	Data 0.212 (0.212)	Loss 0.6731 (0.6731)	Prec@1 64.062 (64.062)	
+2022-01-19 14:39:07 - INFO - EVALUATING - Epoch: [22][10/20]	Time 0.003 (0.022)	Data 0.002 (0.021)	Loss 0.7764 (0.7312)	Prec@1 53.125 (58.097)	
+2022-01-19 14:39:07 - INFO - 
+ Epoch: 23	Training Loss 0.7513 	Training Prec@1 53.914 	Validation Loss 0.7357 	Validation Prec@1 57.492 	
+2022-01-19 14:39:07 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:07 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:07 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:07 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][0/80]	Time 0.192 (0.192)	Data 0.188 (0.188)	Loss 0.6416 (0.6416)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 0.7257 (0.7534)	Prec@1 59.375 (57.102)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.8079 (0.7348)	Prec@1 50.000 (53.199)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6964 (0.7294)	Prec@1 42.188 (54.738)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6722 (0.7215)	Prec@1 64.062 (55.526)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7182 (0.7170)	Prec@1 59.375 (55.882)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6717 (0.7206)	Prec@1 64.062 (56.276)	
+2022-01-19 14:39:07 - INFO - TRAINING - Epoch: [23][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.6908 (0.7164)	Prec@1 57.812 (56.250)	
+2022-01-19 14:39:08 - INFO - EVALUATING - Epoch: [23][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 0.9088 (0.9088)	Prec@1 50.000 (50.000)	
+2022-01-19 14:39:08 - INFO - EVALUATING - Epoch: [23][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.9452 (1.0533)	Prec@1 64.062 (59.659)	
+2022-01-19 14:39:08 - INFO - 
+ Epoch: 24	Training Loss 0.7276 	Training Prec@1 56.458 	Validation Loss 1.0851 	Validation Prec@1 60.016 	
+2022-01-19 14:39:08 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:08 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:08 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:08 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][0/80]	Time 0.193 (0.193)	Data 0.189 (0.189)	Loss 0.9892 (0.9892)	Prec@1 59.375 (59.375)	
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 1.0326 (0.9277)	Prec@1 46.875 (51.562)	
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.9173 (0.8341)	Prec@1 60.938 (52.902)	
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.8378 (0.8401)	Prec@1 46.875 (52.923)	
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6927 (0.8131)	Prec@1 51.562 (53.735)	
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][50/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.6230 (0.7860)	Prec@1 71.875 (54.381)	
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7349 (0.7798)	Prec@1 57.812 (55.174)	
+2022-01-19 14:39:08 - INFO - TRAINING - Epoch: [24][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.6946 (0.7655)	Prec@1 46.875 (55.392)	
+2022-01-19 14:39:08 - INFO - EVALUATING - Epoch: [24][0/20]	Time 0.236 (0.236)	Data 0.234 (0.234)	Loss 0.6442 (0.6442)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:08 - INFO - EVALUATING - Epoch: [24][10/20]	Time 0.003 (0.024)	Data 0.002 (0.023)	Loss 0.5773 (0.6767)	Prec@1 73.438 (63.920)	
+2022-01-19 14:39:09 - INFO - 
+ Epoch: 25	Training Loss 0.7702 	Training Prec@1 55.216 	Validation Loss 0.6982 	Validation Prec@1 61.672 	
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][0/80]	Time 0.199 (0.199)	Data 0.195 (0.195)	Loss 0.7512 (0.7512)	Prec@1 56.250 (56.250)	
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.6906 (0.7304)	Prec@1 56.250 (53.551)	
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6939 (0.7151)	Prec@1 50.000 (56.399)	
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.7340 (0.7191)	Prec@1 57.812 (57.157)	
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.7038 (0.7145)	Prec@1 39.062 (55.412)	
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6918 (0.7080)	Prec@1 60.938 (56.924)	
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6966 (0.7055)	Prec@1 60.938 (56.583)	
+2022-01-19 14:39:09 - INFO - TRAINING - Epoch: [25][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6862 (0.7047)	Prec@1 59.375 (57.064)	
+2022-01-19 14:39:09 - INFO - EVALUATING - Epoch: [25][0/20]	Time 0.189 (0.189)	Data 0.188 (0.188)	Loss 0.6401 (0.6401)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:09 - INFO - EVALUATING - Epoch: [25][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.7679 (0.6784)	Prec@1 53.125 (63.068)	
+2022-01-19 14:39:09 - INFO - 
+ Epoch: 26	Training Loss 0.7038 	Training Prec@1 56.498 	Validation Loss 0.6987 	Validation Prec@1 60.804 	
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:09 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][0/80]	Time 0.196 (0.196)	Data 0.192 (0.192)	Loss 0.7415 (0.7415)	Prec@1 56.250 (56.250)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.6901 (0.7276)	Prec@1 54.688 (52.131)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6854 (0.7538)	Prec@1 59.375 (56.176)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6839 (0.7345)	Prec@1 60.938 (54.284)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][40/80]	Time 0.007 (0.009)	Data 0.003 (0.007)	Loss 0.6900 (0.7839)	Prec@1 54.688 (54.802)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6938 (0.7666)	Prec@1 50.000 (53.431)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6918 (0.7544)	Prec@1 53.125 (53.330)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [26][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6416 (0.7448)	Prec@1 67.188 (53.653)	
+2022-01-19 14:39:10 - INFO - EVALUATING - Epoch: [26][0/20]	Time 0.189 (0.189)	Data 0.187 (0.187)	Loss 0.6999 (0.6999)	Prec@1 42.188 (42.188)	
+2022-01-19 14:39:10 - INFO - EVALUATING - Epoch: [26][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6866 (0.6958)	Prec@1 59.375 (47.585)	
+2022-01-19 14:39:10 - INFO - 
+ Epoch: 27	Training Loss 0.7527 	Training Prec@1 54.329 	Validation Loss 0.6940 	Validation Prec@1 49.921 	
+2022-01-19 14:39:10 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:10 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:10 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:10 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [27][0/80]	Time 0.194 (0.194)	Data 0.190 (0.190)	Loss 0.6903 (0.6903)	Prec@1 54.688 (54.688)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [27][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 0.6125 (0.7024)	Prec@1 70.312 (53.267)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [27][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.8635 (0.7365)	Prec@1 46.875 (56.399)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [27][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6927 (0.7239)	Prec@1 51.562 (55.645)	
+2022-01-19 14:39:10 - INFO - TRAINING - Epoch: [27][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6623 (0.7341)	Prec@1 70.312 (56.136)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [27][50/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.6924 (0.7312)	Prec@1 53.125 (56.373)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [27][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6416 (0.7263)	Prec@1 71.875 (56.199)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [27][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.7210 (0.7265)	Prec@1 50.000 (55.502)	
+2022-01-19 14:39:11 - INFO - EVALUATING - Epoch: [27][0/20]	Time 0.195 (0.195)	Data 0.193 (0.193)	Loss 0.6939 (0.6939)	Prec@1 42.188 (42.188)	
+2022-01-19 14:39:11 - INFO - EVALUATING - Epoch: [27][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6923 (0.6934)	Prec@1 59.375 (47.585)	
+2022-01-19 14:39:11 - INFO - 
+ Epoch: 28	Training Loss 0.7322 	Training Prec@1 55.571 	Validation Loss 0.6932 	Validation Prec@1 49.921 	
+2022-01-19 14:39:11 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:11 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:11 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:11 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][0/80]	Time 0.199 (0.199)	Data 0.195 (0.195)	Loss 0.6933 (0.6933)	Prec@1 48.438 (48.438)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.7986 (0.8512)	Prec@1 45.312 (53.551)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6569 (0.7756)	Prec@1 65.625 (55.878)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.7061 (0.7530)	Prec@1 60.938 (54.385)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.9109 (0.7506)	Prec@1 57.812 (56.707)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6922 (0.7384)	Prec@1 54.688 (56.189)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6580 (0.7374)	Prec@1 65.625 (55.917)	
+2022-01-19 14:39:11 - INFO - TRAINING - Epoch: [28][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6933 (0.7302)	Prec@1 46.875 (55.238)	
+2022-01-19 14:39:12 - INFO - EVALUATING - Epoch: [28][0/20]	Time 0.203 (0.203)	Data 0.201 (0.201)	Loss 0.8159 (0.8159)	Prec@1 65.625 (65.625)	
+2022-01-19 14:39:12 - INFO - EVALUATING - Epoch: [28][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.7221 (0.8533)	Prec@1 70.312 (63.778)	
+2022-01-19 14:39:12 - INFO - 
+ Epoch: 29	Training Loss 0.7266 	Training Prec@1 54.940 	Validation Loss 0.8746 	Validation Prec@1 62.697 	
+2022-01-19 14:39:12 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:12 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:12 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:12 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][0/80]	Time 0.245 (0.245)	Data 0.241 (0.241)	Loss 1.0656 (1.0656)	Prec@1 53.125 (53.125)	
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][10/80]	Time 0.004 (0.026)	Data 0.002 (0.024)	Loss 0.6934 (0.7282)	Prec@1 48.438 (49.290)	
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][20/80]	Time 0.004 (0.016)	Data 0.002 (0.013)	Loss 0.6932 (0.7115)	Prec@1 50.000 (49.926)	
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][30/80]	Time 0.004 (0.012)	Data 0.002 (0.010)	Loss 0.6915 (0.7057)	Prec@1 60.938 (49.899)	
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 1.4519 (0.7626)	Prec@1 53.125 (52.172)	
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][50/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.8388 (0.7890)	Prec@1 54.688 (52.390)	
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6932 (0.7739)	Prec@1 42.188 (52.766)	
+2022-01-19 14:39:12 - INFO - TRAINING - Epoch: [29][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6931 (0.7625)	Prec@1 50.000 (52.113)	
+2022-01-19 14:39:13 - INFO - EVALUATING - Epoch: [29][0/20]	Time 0.205 (0.205)	Data 0.203 (0.203)	Loss 0.6931 (0.6931)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:13 - INFO - EVALUATING - Epoch: [29][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.6932 (0.6931)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:13 - INFO - 
+ Epoch: 30	Training Loss 0.7589 	Training Prec@1 51.942 	Validation Loss 0.6931 	Validation Prec@1 50.079 	
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][0/80]	Time 0.246 (0.246)	Data 0.242 (0.242)	Loss 0.6931 (0.6931)	Prec@1 50.000 (50.000)	
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][10/80]	Time 0.004 (0.026)	Data 0.002 (0.024)	Loss 0.8112 (0.6987)	Prec@1 50.000 (52.415)	
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][20/80]	Time 0.005 (0.016)	Data 0.002 (0.013)	Loss 1.0947 (0.7205)	Prec@1 60.938 (52.976)	
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][30/80]	Time 0.005 (0.012)	Data 0.002 (0.010)	Loss 0.6941 (0.7257)	Prec@1 48.438 (54.688)	
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6726 (0.7211)	Prec@1 64.062 (54.040)	
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][50/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6919 (0.7160)	Prec@1 53.125 (55.453)	
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6207 (0.7126)	Prec@1 68.750 (55.174)	
+2022-01-19 14:39:13 - INFO - TRAINING - Epoch: [30][70/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.7939 (0.7128)	Prec@1 53.125 (55.898)	
+2022-01-19 14:39:13 - INFO - EVALUATING - Epoch: [30][0/20]	Time 0.189 (0.189)	Data 0.187 (0.187)	Loss 0.6901 (0.6901)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:13 - INFO - EVALUATING - Epoch: [30][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6973 (0.6924)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:13 - INFO - 
+ Epoch: 31	Training Loss 0.7110 	Training Prec@1 55.038 	Validation Loss 0.6933 	Validation Prec@1 50.079 	
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:13 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][0/80]	Time 0.205 (0.205)	Data 0.201 (0.201)	Loss 0.6927 (0.6927)	Prec@1 51.562 (51.562)	
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][10/80]	Time 0.004 (0.023)	Data 0.002 (0.020)	Loss 0.6252 (0.7153)	Prec@1 68.750 (56.676)	
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.8494 (0.7065)	Prec@1 62.500 (56.845)	
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.6930 (0.7015)	Prec@1 51.562 (56.704)	
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6933 (0.6995)	Prec@1 46.875 (54.649)	
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6939 (0.6983)	Prec@1 40.625 (53.768)	
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 1.0024 (0.7107)	Prec@1 56.250 (54.355)	
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [31][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6933 (0.7151)	Prec@1 48.438 (54.181)	
+2022-01-19 14:39:14 - INFO - EVALUATING - Epoch: [31][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 0.8784 (0.8784)	Prec@1 62.500 (62.500)	
+2022-01-19 14:39:14 - INFO - EVALUATING - Epoch: [31][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.8486 (0.8815)	Prec@1 64.062 (62.358)	
+2022-01-19 14:39:14 - INFO - 
+ Epoch: 32	Training Loss 0.7169 	Training Prec@1 54.013 	Validation Loss 0.9318 	Validation Prec@1 59.858 	
+2022-01-19 14:39:14 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:14 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:14 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:14 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:14 - INFO - TRAINING - Epoch: [32][0/80]	Time 0.199 (0.199)	Data 0.195 (0.195)	Loss 1.0047 (1.0047)	Prec@1 56.250 (56.250)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [32][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.6719 (0.7786)	Prec@1 64.062 (57.244)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [32][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6936 (0.7346)	Prec@1 46.875 (57.812)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [32][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6568 (0.7162)	Prec@1 65.625 (58.569)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [32][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6935 (0.7072)	Prec@1 48.438 (58.460)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [32][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6942 (0.7100)	Prec@1 40.625 (57.690)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [32][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6931 (0.7072)	Prec@1 53.125 (56.224)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [32][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6927 (0.7053)	Prec@1 56.250 (55.260)	
+2022-01-19 14:39:15 - INFO - EVALUATING - Epoch: [32][0/20]	Time 0.194 (0.194)	Data 0.192 (0.192)	Loss 0.6919 (0.6919)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:15 - INFO - EVALUATING - Epoch: [32][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6947 (0.6928)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:15 - INFO - 
+ Epoch: 33	Training Loss 0.7332 	Training Prec@1 54.999 	Validation Loss 0.6932 	Validation Prec@1 50.079 	
+2022-01-19 14:39:15 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:15 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:15 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:15 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [33][0/80]	Time 0.202 (0.202)	Data 0.198 (0.198)	Loss 0.6914 (0.6914)	Prec@1 60.938 (60.938)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [33][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.7654 (0.7267)	Prec@1 54.688 (57.386)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [33][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 1.1197 (0.7350)	Prec@1 57.812 (56.548)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [33][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6932 (0.7934)	Prec@1 48.438 (54.234)	
+2022-01-19 14:39:15 - INFO - TRAINING - Epoch: [33][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 1.0138 (0.7763)	Prec@1 59.375 (54.649)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [33][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6493 (0.7627)	Prec@1 51.562 (54.749)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [33][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7679 (0.7642)	Prec@1 54.688 (55.405)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [33][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6896 (0.7574)	Prec@1 62.500 (55.458)	
+2022-01-19 14:39:16 - INFO - EVALUATING - Epoch: [33][0/20]	Time 0.195 (0.195)	Data 0.194 (0.194)	Loss 0.5460 (0.5460)	Prec@1 76.562 (76.562)	
+2022-01-19 14:39:16 - INFO - EVALUATING - Epoch: [33][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6099 (0.6538)	Prec@1 70.312 (65.767)	
+2022-01-19 14:39:16 - INFO - 
+ Epoch: 34	Training Loss 0.7520 	Training Prec@1 55.315 	Validation Loss 0.6709 	Validation Prec@1 64.117 	
+2022-01-19 14:39:16 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:16 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:16 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:16 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][0/80]	Time 0.242 (0.242)	Data 0.239 (0.239)	Loss 0.7817 (0.7817)	Prec@1 53.125 (53.125)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][10/80]	Time 0.004 (0.026)	Data 0.002 (0.023)	Loss 0.7332 (0.7175)	Prec@1 64.062 (53.267)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][20/80]	Time 0.004 (0.015)	Data 0.002 (0.013)	Loss 0.6929 (0.7367)	Prec@1 62.500 (54.539)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][30/80]	Time 0.004 (0.012)	Data 0.002 (0.010)	Loss 0.8749 (0.7565)	Prec@1 43.750 (54.435)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.9394 (0.7611)	Prec@1 59.375 (53.849)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6929 (0.7548)	Prec@1 53.125 (54.136)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 1.2385 (0.7558)	Prec@1 60.938 (53.535)	
+2022-01-19 14:39:16 - INFO - TRAINING - Epoch: [34][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6932 (0.7914)	Prec@1 50.000 (53.697)	
+2022-01-19 14:39:17 - INFO - EVALUATING - Epoch: [34][0/20]	Time 0.242 (0.242)	Data 0.240 (0.240)	Loss 0.6620 (0.6620)	Prec@1 65.625 (65.625)	
+2022-01-19 14:39:17 - INFO - EVALUATING - Epoch: [34][10/20]	Time 0.003 (0.025)	Data 0.002 (0.024)	Loss 0.6736 (0.7137)	Prec@1 64.062 (60.369)	
+2022-01-19 14:39:17 - INFO - 
+ Epoch: 35	Training Loss 0.7826 	Training Prec@1 53.343 	Validation Loss 0.7132 	Validation Prec@1 60.331 	
+2022-01-19 14:39:17 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:17 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:17 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:17 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][0/80]	Time 0.203 (0.203)	Data 0.199 (0.199)	Loss 0.5799 (0.5799)	Prec@1 73.438 (73.438)	
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.6896 (0.6962)	Prec@1 62.500 (59.375)	
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.7188 (0.7107)	Prec@1 59.375 (59.003)	
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.7635 (0.7075)	Prec@1 54.688 (57.712)	
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6894 (0.7132)	Prec@1 62.500 (55.564)	
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6571 (0.7130)	Prec@1 65.625 (55.178)	
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6908 (0.7121)	Prec@1 56.250 (55.379)	
+2022-01-19 14:39:17 - INFO - TRAINING - Epoch: [35][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6940 (0.7231)	Prec@1 48.438 (55.106)	
+2022-01-19 14:39:18 - INFO - EVALUATING - Epoch: [35][0/20]	Time 0.199 (0.199)	Data 0.197 (0.197)	Loss 0.6421 (0.6421)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:18 - INFO - EVALUATING - Epoch: [35][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.6233 (0.6491)	Prec@1 68.750 (66.477)	
+2022-01-19 14:39:18 - INFO - 
+ Epoch: 36	Training Loss 0.7240 	Training Prec@1 54.585 	Validation Loss 0.6844 	Validation Prec@1 62.855 	
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][0/80]	Time 0.198 (0.198)	Data 0.194 (0.194)	Loss 0.6413 (0.6413)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.6946 (0.7197)	Prec@1 46.875 (55.682)	
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.8635 (0.7132)	Prec@1 56.250 (57.887)	
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.5386 (0.6987)	Prec@1 73.438 (58.115)	
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.7653 (0.7039)	Prec@1 54.688 (58.308)	
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6367 (0.7060)	Prec@1 67.188 (57.169)	
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6916 (0.7112)	Prec@1 53.125 (56.660)	
+2022-01-19 14:39:18 - INFO - TRAINING - Epoch: [36][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6608 (0.7247)	Prec@1 65.625 (56.052)	
+2022-01-19 14:39:18 - INFO - EVALUATING - Epoch: [36][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 0.7234 (0.7234)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:18 - INFO - EVALUATING - Epoch: [36][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.8813 (0.7730)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:18 - INFO - 
+ Epoch: 37	Training Loss 0.7211 	Training Prec@1 56.754 	Validation Loss 0.7944 	Validation Prec@1 50.079 	
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:18 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][0/80]	Time 0.199 (0.199)	Data 0.195 (0.195)	Loss 0.8670 (0.8670)	Prec@1 42.188 (42.188)	
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 0.7521 (0.7589)	Prec@1 57.812 (54.119)	
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.6324 (0.7229)	Prec@1 67.188 (58.333)	
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6511 (0.7092)	Prec@1 50.000 (57.359)	
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6942 (0.7209)	Prec@1 50.000 (56.974)	
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.9377 (0.7209)	Prec@1 56.250 (56.648)	
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6871 (0.7131)	Prec@1 57.812 (57.582)	
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [37][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6198 (0.7095)	Prec@1 70.312 (57.218)	
+2022-01-19 14:39:19 - INFO - EVALUATING - Epoch: [37][0/20]	Time 0.194 (0.194)	Data 0.193 (0.193)	Loss 0.7008 (0.7008)	Prec@1 42.188 (42.188)	
+2022-01-19 14:39:19 - INFO - EVALUATING - Epoch: [37][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6860 (0.6961)	Prec@1 59.375 (47.585)	
+2022-01-19 14:39:19 - INFO - 
+ Epoch: 38	Training Loss 0.7342 	Training Prec@1 57.247 	Validation Loss 0.6941 	Validation Prec@1 49.921 	
+2022-01-19 14:39:19 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:19 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:19 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:19 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:19 - INFO - TRAINING - Epoch: [38][0/80]	Time 0.199 (0.199)	Data 0.195 (0.195)	Loss 0.6941 (0.6941)	Prec@1 50.000 (50.000)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [38][10/80]	Time 0.004 (0.022)	Data 0.002 (0.019)	Loss 1.1928 (0.9356)	Prec@1 56.250 (55.114)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [38][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.8497 (0.8467)	Prec@1 48.438 (54.464)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [38][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.7095 (0.8349)	Prec@1 59.375 (54.990)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [38][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6779 (0.8238)	Prec@1 62.500 (55.602)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [38][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7027 (0.7967)	Prec@1 40.625 (55.607)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [38][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6102 (0.7785)	Prec@1 70.312 (56.122)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [38][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6930 (0.7688)	Prec@1 51.562 (55.458)	
+2022-01-19 14:39:20 - INFO - EVALUATING - Epoch: [38][0/20]	Time 0.190 (0.190)	Data 0.188 (0.188)	Loss 0.6549 (0.6549)	Prec@1 65.625 (65.625)	
+2022-01-19 14:39:20 - INFO - EVALUATING - Epoch: [38][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6707 (0.6685)	Prec@1 62.500 (63.920)	
+2022-01-19 14:39:20 - INFO - 
+ Epoch: 39	Training Loss 0.7692 	Training Prec@1 55.216 	Validation Loss 0.7031 	Validation Prec@1 60.174 	
+2022-01-19 14:39:20 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:20 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:20 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:20 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [39][0/80]	Time 0.206 (0.206)	Data 0.202 (0.202)	Loss 0.7206 (0.7206)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [39][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.7449 (1.0607)	Prec@1 46.875 (53.977)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [39][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.6946 (0.8926)	Prec@1 50.000 (56.771)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [39][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.9721 (0.8471)	Prec@1 50.000 (55.141)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [39][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6870 (0.8115)	Prec@1 57.812 (56.021)	
+2022-01-19 14:39:20 - INFO - TRAINING - Epoch: [39][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6987 (0.8014)	Prec@1 45.312 (55.790)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [39][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.5773 (0.7990)	Prec@1 76.562 (56.199)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [39][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6879 (0.7920)	Prec@1 56.250 (56.206)	
+2022-01-19 14:39:21 - INFO - EVALUATING - Epoch: [39][0/20]	Time 0.241 (0.241)	Data 0.239 (0.239)	Loss 0.7625 (0.7625)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:21 - INFO - EVALUATING - Epoch: [39][10/20]	Time 0.003 (0.025)	Data 0.002 (0.023)	Loss 1.1512 (0.9251)	Prec@1 46.875 (58.807)	
+2022-01-19 14:39:21 - INFO - 
+ Epoch: 40	Training Loss 0.7816 	Training Prec@1 55.788 	Validation Loss 0.9778 	Validation Prec@1 56.073 	
+2022-01-19 14:39:21 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:21 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:21 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:21 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][0/80]	Time 0.205 (0.205)	Data 0.201 (0.201)	Loss 0.8531 (0.8531)	Prec@1 62.500 (62.500)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.6867 (0.8219)	Prec@1 57.812 (53.125)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.6640 (0.7887)	Prec@1 64.062 (54.167)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.6957 (0.7651)	Prec@1 62.500 (55.091)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6439 (0.7427)	Prec@1 67.188 (57.279)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6950 (0.7295)	Prec@1 48.438 (57.353)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6964 (0.7376)	Prec@1 46.875 (56.762)	
+2022-01-19 14:39:21 - INFO - TRAINING - Epoch: [40][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6882 (0.7298)	Prec@1 62.500 (57.240)	
+2022-01-19 14:39:22 - INFO - EVALUATING - Epoch: [40][0/20]	Time 0.194 (0.194)	Data 0.192 (0.192)	Loss 0.6501 (0.6501)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:22 - INFO - EVALUATING - Epoch: [40][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.6487 (0.6781)	Prec@1 65.625 (63.920)	
+2022-01-19 14:39:22 - INFO - 
+ Epoch: 41	Training Loss 0.7262 	Training Prec@1 57.010 	Validation Loss 0.6902 	Validation Prec@1 62.461 	
+2022-01-19 14:39:22 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:22 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:22 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:22 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][0/80]	Time 0.200 (0.200)	Data 0.196 (0.196)	Loss 0.6560 (0.6560)	Prec@1 67.188 (67.188)	
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][10/80]	Time 0.004 (0.023)	Data 0.002 (0.020)	Loss 0.8574 (0.8301)	Prec@1 48.438 (53.977)	
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.7197 (0.7937)	Prec@1 70.312 (55.804)	
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.6980 (0.7752)	Prec@1 45.312 (56.653)	
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6989 (0.7737)	Prec@1 43.750 (56.593)	
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.7881 (0.7770)	Prec@1 53.125 (56.250)	
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6927 (0.7632)	Prec@1 51.562 (55.405)	
+2022-01-19 14:39:22 - INFO - TRAINING - Epoch: [41][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6947 (0.7641)	Prec@1 48.438 (55.502)	
+2022-01-19 14:39:22 - INFO - EVALUATING - Epoch: [41][0/20]	Time 0.194 (0.194)	Data 0.192 (0.192)	Loss 0.5898 (0.5898)	Prec@1 71.875 (71.875)	
+2022-01-19 14:39:23 - INFO - EVALUATING - Epoch: [41][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.7826 (0.6893)	Prec@1 51.562 (61.648)	
+2022-01-19 14:39:23 - INFO - 
+ Epoch: 42	Training Loss 0.7744 	Training Prec@1 56.360 	Validation Loss 0.7169 	Validation Prec@1 58.754 	
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][0/80]	Time 0.237 (0.237)	Data 0.233 (0.233)	Loss 0.6850 (0.6850)	Prec@1 62.500 (62.500)	
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][10/80]	Time 0.004 (0.025)	Data 0.002 (0.023)	Loss 0.7021 (0.9698)	Prec@1 37.500 (51.420)	
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][20/80]	Time 0.004 (0.015)	Data 0.002 (0.013)	Loss 0.6973 (0.8383)	Prec@1 43.750 (50.818)	
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][30/80]	Time 0.004 (0.011)	Data 0.002 (0.009)	Loss 0.6911 (0.7919)	Prec@1 54.688 (50.101)	
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][40/80]	Time 0.005 (0.010)	Data 0.002 (0.008)	Loss 0.6911 (0.7676)	Prec@1 54.688 (50.686)	
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][50/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6960 (0.7587)	Prec@1 45.312 (50.460)	
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6960 (0.7583)	Prec@1 56.250 (50.845)	
+2022-01-19 14:39:23 - INFO - TRAINING - Epoch: [42][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.8730 (0.7723)	Prec@1 48.438 (51.144)	
+2022-01-19 14:39:23 - INFO - EVALUATING - Epoch: [42][0/20]	Time 0.199 (0.199)	Data 0.197 (0.197)	Loss 0.5914 (0.5914)	Prec@1 71.875 (71.875)	
+2022-01-19 14:39:23 - INFO - EVALUATING - Epoch: [42][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.7686 (0.6804)	Prec@1 53.125 (62.642)	
+2022-01-19 14:39:23 - INFO - 
+ Epoch: 43	Training Loss 0.7790 	Training Prec@1 51.094 	Validation Loss 0.7104 	Validation Prec@1 59.543 	
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:23 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][0/80]	Time 0.194 (0.194)	Data 0.190 (0.190)	Loss 0.7180 (0.7180)	Prec@1 59.375 (59.375)	
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 0.7442 (0.7474)	Prec@1 56.250 (59.375)	
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][20/80]	Time 0.005 (0.013)	Data 0.002 (0.011)	Loss 0.7023 (0.7261)	Prec@1 37.500 (57.887)	
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.7483 (0.7344)	Prec@1 54.688 (57.560)	
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.7072 (0.7234)	Prec@1 60.938 (56.479)	
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6990 (0.7165)	Prec@1 45.312 (57.384)	
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6940 (0.7238)	Prec@1 60.938 (56.506)	
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [43][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.8215 (0.7412)	Prec@1 51.562 (55.920)	
+2022-01-19 14:39:24 - INFO - EVALUATING - Epoch: [43][0/20]	Time 0.209 (0.209)	Data 0.207 (0.207)	Loss 0.6138 (0.6138)	Prec@1 70.312 (70.312)	
+2022-01-19 14:39:24 - INFO - EVALUATING - Epoch: [43][10/20]	Time 0.003 (0.022)	Data 0.002 (0.021)	Loss 0.6396 (0.6713)	Prec@1 67.188 (64.631)	
+2022-01-19 14:39:24 - INFO - 
+ Epoch: 44	Training Loss 0.7434 	Training Prec@1 55.413 	Validation Loss 0.6988 	Validation Prec@1 61.672 	
+2022-01-19 14:39:24 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:24 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:24 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:24 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:24 - INFO - TRAINING - Epoch: [44][0/80]	Time 0.199 (0.199)	Data 0.195 (0.195)	Loss 0.7326 (0.7326)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [44][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.8145 (0.7523)	Prec@1 65.625 (59.375)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [44][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6901 (0.7380)	Prec@1 56.250 (55.506)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [44][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.9863 (0.7598)	Prec@1 56.250 (52.571)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [44][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6807 (0.7653)	Prec@1 62.500 (54.916)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [44][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.6908 (0.7728)	Prec@1 54.688 (54.718)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [44][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6935 (0.7600)	Prec@1 50.000 (53.637)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [44][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6928 (0.7630)	Prec@1 51.562 (54.027)	
+2022-01-19 14:39:25 - INFO - EVALUATING - Epoch: [44][0/20]	Time 0.190 (0.190)	Data 0.188 (0.188)	Loss 0.7317 (0.7317)	Prec@1 57.812 (57.812)	
+2022-01-19 14:39:25 - INFO - EVALUATING - Epoch: [44][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.8997 (0.7845)	Prec@1 40.625 (52.415)	
+2022-01-19 14:39:25 - INFO - 
+ Epoch: 45	Training Loss 0.7558 	Training Prec@1 53.402 	Validation Loss 0.8073 	Validation Prec@1 50.079 	
+2022-01-19 14:39:25 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:25 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:25 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:25 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [45][0/80]	Time 0.193 (0.193)	Data 0.189 (0.189)	Loss 0.7623 (0.7623)	Prec@1 54.688 (54.688)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [45][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 0.6932 (0.8508)	Prec@1 50.000 (50.994)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [45][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6983 (0.8025)	Prec@1 39.062 (52.530)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [45][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.7188 (0.7678)	Prec@1 70.312 (53.125)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [45][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.6895 (0.7632)	Prec@1 56.250 (54.002)	
+2022-01-19 14:39:25 - INFO - TRAINING - Epoch: [45][50/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.6902 (0.7702)	Prec@1 54.688 (54.688)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [45][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6956 (0.7577)	Prec@1 48.438 (53.970)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [45][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.8531 (0.7637)	Prec@1 53.125 (55.062)	
+2022-01-19 14:39:26 - INFO - EVALUATING - Epoch: [45][0/20]	Time 0.200 (0.200)	Data 0.198 (0.198)	Loss 0.9988 (0.9988)	Prec@1 32.812 (32.812)	
+2022-01-19 14:39:26 - INFO - EVALUATING - Epoch: [45][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.8049 (1.0093)	Prec@1 53.125 (41.051)	
+2022-01-19 14:39:26 - INFO - 
+ Epoch: 46	Training Loss 0.7602 	Training Prec@1 55.531 	Validation Loss 0.9645 	Validation Prec@1 44.243 	
+2022-01-19 14:39:26 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:26 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:26 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:26 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][0/80]	Time 0.248 (0.248)	Data 0.244 (0.244)	Loss 0.8738 (0.8738)	Prec@1 53.125 (53.125)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][10/80]	Time 0.004 (0.026)	Data 0.002 (0.024)	Loss 0.6179 (0.9694)	Prec@1 48.438 (56.676)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][20/80]	Time 0.004 (0.016)	Data 0.002 (0.013)	Loss 0.7690 (0.8902)	Prec@1 56.250 (55.804)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][30/80]	Time 0.004 (0.012)	Data 0.002 (0.010)	Loss 0.6923 (0.8465)	Prec@1 60.938 (54.284)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][40/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6777 (0.8125)	Prec@1 62.500 (55.640)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][50/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6598 (0.7886)	Prec@1 67.188 (56.679)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][60/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.5639 (0.7714)	Prec@1 79.688 (58.017)	
+2022-01-19 14:39:26 - INFO - TRAINING - Epoch: [46][70/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.6149 (0.7653)	Prec@1 70.312 (58.583)	
+2022-01-19 14:39:27 - INFO - EVALUATING - Epoch: [46][0/20]	Time 0.241 (0.241)	Data 0.239 (0.239)	Loss 0.6842 (0.6842)	Prec@1 64.062 (64.062)	
+2022-01-19 14:39:27 - INFO - EVALUATING - Epoch: [46][10/20]	Time 0.003 (0.025)	Data 0.002 (0.023)	Loss 0.6290 (0.7024)	Prec@1 68.750 (61.932)	
+2022-01-19 14:39:27 - INFO - 
+ Epoch: 47	Training Loss 0.7578 	Training Prec@1 57.977 	Validation Loss 0.7016 	Validation Prec@1 61.830 	
+2022-01-19 14:39:27 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:27 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:27 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:27 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][0/80]	Time 0.204 (0.204)	Data 0.200 (0.200)	Loss 0.8860 (0.8860)	Prec@1 43.750 (43.750)	
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][10/80]	Time 0.004 (0.022)	Data 0.002 (0.020)	Loss 0.7384 (0.7680)	Prec@1 57.812 (53.551)	
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.6946 (0.7430)	Prec@1 48.438 (52.232)	
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.8453 (0.8093)	Prec@1 64.062 (52.772)	
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6948 (0.8115)	Prec@1 48.438 (53.163)	
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.8943 (0.8025)	Prec@1 62.500 (53.738)	
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 1.1015 (0.7987)	Prec@1 51.562 (53.945)	
+2022-01-19 14:39:27 - INFO - TRAINING - Epoch: [47][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6961 (0.7917)	Prec@1 46.875 (54.335)	
+2022-01-19 14:39:28 - INFO - EVALUATING - Epoch: [47][0/20]	Time 0.241 (0.241)	Data 0.239 (0.239)	Loss 0.6262 (0.6262)	Prec@1 68.750 (68.750)	
+2022-01-19 14:39:28 - INFO - EVALUATING - Epoch: [47][10/20]	Time 0.003 (0.025)	Data 0.002 (0.023)	Loss 0.6485 (0.6700)	Prec@1 65.625 (64.062)	
+2022-01-19 14:39:28 - INFO - 
+ Epoch: 48	Training Loss 0.7862 	Training Prec@1 55.275 	Validation Loss 0.6954 	Validation Prec@1 61.356 	
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][0/80]	Time 0.195 (0.195)	Data 0.191 (0.191)	Loss 0.6696 (0.6696)	Prec@1 64.062 (64.062)	
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][10/80]	Time 0.004 (0.021)	Data 0.002 (0.019)	Loss 0.6983 (0.7906)	Prec@1 43.750 (52.983)	
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][20/80]	Time 0.004 (0.013)	Data 0.002 (0.011)	Loss 0.6868 (0.7474)	Prec@1 59.375 (55.655)	
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][30/80]	Time 0.004 (0.010)	Data 0.002 (0.008)	Loss 0.6938 (0.7304)	Prec@1 50.000 (53.579)	
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][40/80]	Time 0.004 (0.009)	Data 0.002 (0.006)	Loss 0.7502 (0.7376)	Prec@1 56.250 (54.611)	
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][50/80]	Time 0.004 (0.008)	Data 0.002 (0.005)	Loss 0.6874 (0.7225)	Prec@1 59.375 (56.679)	
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6028 (0.7140)	Prec@1 71.875 (56.890)	
+2022-01-19 14:39:28 - INFO - TRAINING - Epoch: [48][70/80]	Time 0.004 (0.007)	Data 0.002 (0.004)	Loss 0.6927 (0.7236)	Prec@1 51.562 (56.822)	
+2022-01-19 14:39:28 - INFO - EVALUATING - Epoch: [48][0/20]	Time 0.194 (0.194)	Data 0.192 (0.192)	Loss 0.6800 (0.6800)	Prec@1 62.500 (62.500)	
+2022-01-19 14:39:28 - INFO - EVALUATING - Epoch: [48][10/20]	Time 0.003 (0.020)	Data 0.002 (0.019)	Loss 0.8540 (0.7208)	Prec@1 43.750 (58.097)	
+2022-01-19 14:39:28 - INFO - 
+ Epoch: 49	Training Loss 0.7273 	Training Prec@1 56.537 	Validation Loss 0.7513 	Validation Prec@1 54.890 	
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting method = Adam
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting lr = 0.025
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting betas = (0.9, 0.999)
+2022-01-19 14:39:28 - DEBUG - OPTIMIZER - setting lr = 0.0025
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][0/80]	Time 0.204 (0.204)	Data 0.200 (0.200)	Loss 0.7642 (0.7642)	Prec@1 53.125 (53.125)	
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][10/80]	Time 0.004 (0.023)	Data 0.002 (0.020)	Loss 0.6609 (0.7757)	Prec@1 65.625 (60.085)	
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][20/80]	Time 0.004 (0.014)	Data 0.002 (0.011)	Loss 0.6976 (0.7332)	Prec@1 45.312 (57.812)	
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][30/80]	Time 0.004 (0.011)	Data 0.002 (0.008)	Loss 0.8064 (0.7238)	Prec@1 48.438 (59.728)	
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][40/80]	Time 0.004 (0.009)	Data 0.002 (0.007)	Loss 0.6972 (0.7403)	Prec@1 46.875 (59.070)	
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][50/80]	Time 0.004 (0.008)	Data 0.002 (0.006)	Loss 0.8260 (0.7554)	Prec@1 60.938 (58.241)	
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][60/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.7145 (0.7506)	Prec@1 60.938 (57.428)	
+2022-01-19 14:39:29 - INFO - TRAINING - Epoch: [49][70/80]	Time 0.004 (0.007)	Data 0.002 (0.005)	Loss 0.6966 (0.7616)	Prec@1 60.938 (57.526)	
+2022-01-19 14:39:29 - INFO - EVALUATING - Epoch: [49][0/20]	Time 0.199 (0.199)	Data 0.197 (0.197)	Loss 0.7033 (0.7033)	Prec@1 42.188 (42.188)	
+2022-01-19 14:39:29 - INFO - EVALUATING - Epoch: [49][10/20]	Time 0.003 (0.021)	Data 0.002 (0.020)	Loss 0.6843 (0.6974)	Prec@1 59.375 (47.585)	
+2022-01-19 14:39:29 - INFO - 
+ Epoch: 50	Training Loss 0.7546 	Training Prec@1 57.148 	Validation Loss 0.6948 	Validation Prec@1 49.921 	
