@@ -30,7 +30,7 @@ The implementation is written as a set of Python scripts. The python version use
 $ pip install requirements.txt
 ``` 
 
-In addition to the packages above, PyFIM is also required. To install PyFIM, please follow the [instruction](https://borgelt.net/pyfim.html/).
+In addition to the packages above, PyFIM is also required. To install PyFIM, please follow the [instruction](https://borgelt.net/pyfim.html).
 
 ## Usage <a name="usage"></a>
 
