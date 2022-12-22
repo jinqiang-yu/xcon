@@ -27,7 +27,7 @@ $ tar -xvf logs.tar.xz && tar -xvf eclat_logs.tar.xz && tar -xvf rules.tar.xz
 ## Requirements <a name="require"></a>
 The implementation is written as a set of Python scripts. The python version used in the experiments is 3.8.5. Some packages are required. To install requirements:
 ```
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ``` 
 
 In addition to the packages above, PyFIM is also required. To install PyFIM, please follow the [instruction](https://borgelt.net/pyfim.html).
